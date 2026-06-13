@@ -6,9 +6,9 @@
     "apple-notes": {
       "category": "apple/apple-notes",
       "skill_version": "1.0.0",
-      "sha256": "a3b5dfbfc26e3ae79f4d1e45ccb00375da083c6ffabf2ca86bf5fec816db6f8e",
-      "size_bytes": 2259,
-      "last_modified": "2026-05-14T18:08:31.693058+00:00",
+      "sha256": "c652e01e47938b8ac21c97873e0a14f5f3a773b554bd10737fbfdcc5e5c28d23",
+      "size_bytes": 2169,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.132036+00:00",
@@ -23,9 +23,9 @@
     "apple-reminders": {
       "category": "apple/apple-reminders",
       "skill_version": "1.0.0",
-      "sha256": "8b5a66a6f65b5c393cafa9c1c742b3549bcc6b56a8da70d0e332abea24b6ff31",
-      "size_bytes": 3736,
-      "last_modified": "2026-06-01T20:59:22.174355+00:00",
+      "sha256": "ee5084f2d7ec196488bef2c74248fb3d8328d1b2e3277ddda3f0de9da6fc7131",
+      "size_bytes": 3606,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.132036+00:00",
@@ -40,9 +40,9 @@
     "findmy": {
       "category": "apple/findmy",
       "skill_version": "1.0.0",
-      "sha256": "b1bd7f046e42cc1287ad5d413e414d81e2ff001a84e9b42bd69ee50abfaf70fb",
-      "size_bytes": 3840,
-      "last_modified": "2026-05-14T18:08:31.699542+00:00",
+      "sha256": "19ec56e3b7f9f0be13c26d99948ed5684d8fb1f9c478da078c19356b5df63f57",
+      "size_bytes": 3709,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.132036+00:00",
@@ -57,9 +57,9 @@
     "imessage": {
       "category": "apple/imessage",
       "skill_version": "1.0.0",
-      "sha256": "501a6c3859a4726b1fbcb7c721ed06ff2e37aa8912195e34c4ad475af1eb0fe3",
-      "size_bytes": 2544,
-      "last_modified": "2026-05-14T18:08:31.699542+00:00",
+      "sha256": "bc68b1648e301409bc25b1084ec26766213ca9f3c1b2fd3d3d6ebe3dbde9e967",
+      "size_bytes": 2442,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.132036+00:00",
@@ -74,9 +74,9 @@
     "macos-computer-use": {
       "category": "apple/macos-computer-use",
       "skill_version": "1.0.0",
-      "sha256": "67d4e69388c47ca50354eb560721c2abc4340a5580223732edc1c8119c559445",
-      "size_bytes": 7510,
-      "last_modified": "2026-05-14T18:08:31.699542+00:00",
+      "sha256": "08b4bb4647d983d1c56994c175829e8e4d4189a0bdffd44ff9db57c78451c90a",
+      "size_bytes": 7309,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.132036+00:00",
@@ -91,9 +91,9 @@
     "audio-stdlib-processing": {
       "category": "audio-stdlib-processing",
       "skill_version": "1.0.0",
-      "sha256": "b52033ba1446b2aaf876509a14d636fee9bf33702d343d96c7cf84acebb88e3b",
-      "size_bytes": 4909,
-      "last_modified": "2026-06-10T01:49:33.712857+00:00",
+      "sha256": "ccde9183c3d93b3719d4fc5666c625f16341a828d04c89a757cdaa644f457a0f",
+      "size_bytes": 4793,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.132036+00:00",
@@ -108,9 +108,9 @@
     "claude-code": {
       "category": "autonomous-ai-agents/claude-code",
       "skill_version": "2.2.0",
-      "sha256": "0b12de72f0dde607eb52930b9996d0f035253ab15f846634a15a18629211a131",
-      "size_bytes": 37636,
-      "last_modified": "2026-06-12T11:02:05.821993+00:00",
+      "sha256": "f4f2562105d2e34824372211e192a086a3ad08c20b8d3a8068c94377f62ca97d",
+      "size_bytes": 36863,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.132036+00:00",
@@ -142,9 +142,9 @@
     "hermes-agent": {
       "category": "autonomous-ai-agents/hermes-agent.bak",
       "skill_version": "2.1.0",
-      "sha256": "e1cd023fa4371dfc02ee61977adefbcddeffb4b3d024f5ee54d3eb374fb9acbd",
-      "size_bytes": 47341,
-      "last_modified": "2026-06-01T20:59:22.175354+00:00",
+      "sha256": "1c22e11474c8b5123c28eac993605924f4b98f3e365e57e8b4f744b0b9bffc70",
+      "size_bytes": 46320,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.132036+00:00",
@@ -159,9 +159,9 @@
     "kanban-codex-lane": {
       "category": "autonomous-ai-agents/kanban-codex-lane",
       "skill_version": "1.0.0",
-      "sha256": "a3bde0e9226df581056ed0a609e3fc1c0142e2fb8b78b000e2c6f8da5852c9b6",
-      "size_bytes": 13051,
-      "last_modified": "2026-06-01T20:59:22.176354+00:00",
+      "sha256": "ca946e1f7968f767a7b235a12c7847d2befe4c1121e2ba4b2c0f0ab309ae6dfe",
+      "size_bytes": 12774,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.132036+00:00",
@@ -176,9 +176,9 @@
     "opencode": {
       "category": "autonomous-ai-agents/opencode",
       "skill_version": "1.2.0",
-      "sha256": "10f2b62b3c3a94b1d55b15f90734c0efb6ba0975d7e7959f26047e195ab64774",
-      "size_bytes": 7478,
-      "last_modified": "2026-05-14T18:08:31.702368+00:00",
+      "sha256": "afb3ea1f1b4300705f4a44f41ef2bb6f36c45e474b677dcb3c0aa4e6b3740595",
+      "size_bytes": 7259,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.132036+00:00",
@@ -210,9 +210,9 @@
     "architecture-diagram": {
       "category": "creative/architecture-diagram",
       "skill_version": "1.0.0",
-      "sha256": "fd7d22231baefc80e30d3c3409e79952cac3a5e1171642d4d0d36e69b3dfbbad",
-      "size_bytes": 5978,
-      "last_modified": "2026-05-14T18:08:31.702368+00:00",
+      "sha256": "0e7e2736aafe052e409c2ad27863d51ef3007c116711e584033787ccb5d99d3f",
+      "size_bytes": 5830,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.132036+00:00",
@@ -227,9 +227,9 @@
     "ascii-art": {
       "category": "creative/ascii-art",
       "skill_version": "4.0.0",
-      "sha256": "2d0b7edcfb32b5152bd7b2e0144bfbc7b961e97166948f465142f4d9f7b65602",
-      "size_bytes": 10878,
-      "last_modified": "2026-05-14T18:08:31.702368+00:00",
+      "sha256": "b69fdd300045a3e68b4886c5c5c714f904c9277ac40b2da371bf9e156fd9fa88",
+      "size_bytes": 10556,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.132036+00:00",
@@ -244,9 +244,9 @@
     "ascii-video": {
       "category": "creative/ascii-video",
       "skill_version": "0.0.0",
-      "sha256": "096f52e71c6fbdde95822eeb9df8442ae4d0e43c356a4db1b7ea9a491c41123f",
-      "size_bytes": 15105,
-      "last_modified": "2026-05-14T18:08:31.702368+00:00",
+      "sha256": "1d4f84e0eacc0d8adfaee62e0f2ab947dd79302ebbf55d5cd07d94a92c92cb95",
+      "size_bytes": 14864,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.132036+00:00",
@@ -261,9 +261,9 @@
     "baoyu-article-illustrator": {
       "category": "creative/baoyu-article-illustrator",
       "skill_version": "1.57.0",
-      "sha256": "5fb861433540b6c08196149fba7906104c5510b0737c5b5f3e332c1e98ceff4b",
-      "size_bytes": 10338,
-      "last_modified": "2026-06-01T20:59:22.177356+00:00",
+      "sha256": "9de0861d5fe4da97d053aa972baffc68d7271c0bc13344161ab36f9f67827aa3",
+      "size_bytes": 10131,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.132036+00:00",
@@ -278,9 +278,9 @@
     "baoyu-comic": {
       "category": "creative/baoyu-comic",
       "skill_version": "1.56.1",
-      "sha256": "bf53197be71633ce682ef9bf1d76ed7b231e001d6e93b81f0231629b46265b3f",
-      "size_bytes": 14868,
-      "last_modified": "2026-05-14T18:08:31.718001+00:00",
+      "sha256": "39daa86a4c9737a51c2734455a4b27f3fd35eb80ae2a70820093d4354a1e2de2",
+      "size_bytes": 14621,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.132036+00:00",
@@ -295,9 +295,9 @@
     "baoyu-infographic": {
       "category": "creative/baoyu-infographic",
       "skill_version": "1.56.1",
-      "sha256": "75d4fd8b2b58b007d46f1b2a706771e38410eb4c719a4a66c51b47f81e1e3b40",
-      "size_bytes": 10671,
-      "last_modified": "2026-05-14T18:08:31.737289+00:00",
+      "sha256": "89e25da6d8ea1cac79b18d9e6c4c3b8d7a522df2eef559f151f19c6ce5b2a002",
+      "size_bytes": 10434,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.132036+00:00",
@@ -312,9 +312,9 @@
     "claude-design": {
       "category": "creative/claude-design",
       "skill_version": "1.0.0",
-      "sha256": "0767db13b5c6fee6798f4c53e81c7518206423ef780c6042811d7a81588701a3",
-      "size_bytes": 20450,
-      "last_modified": "2026-05-14T18:08:31.761231+00:00",
+      "sha256": "4c24fb9579a06f165205b212105f7eb906cada8cce1290319d677195da2d45a7",
+      "size_bytes": 19859,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.132036+00:00",
@@ -329,9 +329,9 @@
     "comfyui": {
       "category": "creative/comfyui",
       "skill_version": "5.1.0",
-      "sha256": "14280593ef4535291195b2db1b1e31b55e1da4bc40bec7543a151f867bc786fb",
-      "size_bytes": 24899,
-      "last_modified": "2026-06-07T21:17:22.950816+00:00",
+      "sha256": "fc9514a3b888b35226a3d2276955bfcf1778fd1e61f4000d79c8c0c53e7905c3",
+      "size_bytes": 24287,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.132036+00:00",
@@ -346,9 +346,9 @@
     "ideation": {
       "category": "creative/creative-ideation",
       "skill_version": "1.0.0",
-      "sha256": "ce585a85452d6c59ac51010375b8de67301281570d3ba6a7130999ce2df1145b",
-      "size_bytes": 6470,
-      "last_modified": "2026-05-14T18:08:31.783496+00:00",
+      "sha256": "a0768ddf7685e2a3a4a69e4008bb42d812773c3efa3bcc1e0c7c073bacbdfda6",
+      "size_bytes": 6318,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
@@ -363,9 +363,9 @@
     "design-md": {
       "category": "creative/design-md",
       "skill_version": "1.0.0",
-      "sha256": "ec27322c4dbc074c6b82954487000d572ae4ad9724432dc2062edd0394882b06",
-      "size_bytes": 7222,
-      "last_modified": "2026-05-14T18:08:31.784034+00:00",
+      "sha256": "38ed14bc712a413fdd2514ea9acf6864ffb64fcbaffe6b5cc608021a75ff89fa",
+      "size_bytes": 7023,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
@@ -380,9 +380,9 @@
     "excalidraw": {
       "category": "creative/excalidraw",
       "skill_version": "1.0.0",
-      "sha256": "1035d010aa941234ea7c9d3f6b942dd68c834c229b673f9a9ba6a06d50d85eb3",
-      "size_bytes": 7499,
-      "last_modified": "2026-05-14T18:08:31.786576+00:00",
+      "sha256": "beef7b8ea01e73a3fe95f9562beaf262c9f51712e1e00e507c6d41b1b00e49ba",
+      "size_bytes": 7300,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
@@ -414,9 +414,9 @@
     "manim-video": {
       "category": "creative/manim-video",
       "skill_version": "1.0.0",
-      "sha256": "8a250eea36139e5d647a1c048019eb409c65044abf4118e65cb3ed83e3610008",
-      "size_bytes": 12292,
-      "last_modified": "2026-06-07T21:17:22.967846+00:00",
+      "sha256": "3459a6af999f0c9bfd61eb867836c8de90b33253493eb1b6aa4118d82fd320f4",
+      "size_bytes": 12023,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
@@ -431,9 +431,9 @@
     "p5js": {
       "category": "creative/p5js",
       "skill_version": "1.0.0",
-      "sha256": "58c0e29d14ab630f78579e0728a7f413240344673d3ad38cef52749d0f378262",
-      "size_bytes": 28050,
-      "last_modified": "2026-06-07T21:17:22.973931+00:00",
+      "sha256": "6a9722e2633ecdb3736e304f56c646258c5e777fd2c15a59c0d2b3ffa91b665a",
+      "size_bytes": 27494,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
@@ -448,9 +448,9 @@
     "pixel-art": {
       "category": "creative/pixel-art",
       "skill_version": "2.0.0",
-      "sha256": "851ade2cb7a3592c15e761d76a5e29394c700e7c0b68224a64036f8dfd158b8e",
-      "size_bytes": 7799,
-      "last_modified": "2026-05-14T18:08:31.817825+00:00",
+      "sha256": "01f351726675bb5ec258ca891bcd03ad6dbb51d4c16fe8e4ed25621ec2f1de04",
+      "size_bytes": 7581,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
@@ -465,9 +465,9 @@
     "popular-web-designs": {
       "category": "creative/popular-web-designs",
       "skill_version": "1.0.0",
-      "sha256": "03c1f6bb0be5efcae3879e7200dc9e1efc075a85be314089fd673c251fed696f",
-      "size_bytes": 9935,
-      "last_modified": "2026-05-14T18:08:31.824409+00:00",
+      "sha256": "cd89bdb86008bb30b35d9bdd30e06587f75ee54055c54e1a79afb20418264b3d",
+      "size_bytes": 9722,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
@@ -482,9 +482,9 @@
     "pretext": {
       "category": "creative/pretext",
       "skill_version": "1.0.0",
-      "sha256": "76210dc7eb255058ef9d857fa981be30e1d3845186f86d2bfda7af73c6aadd7f",
-      "size_bytes": 14388,
-      "last_modified": "2026-05-14T18:08:31.856668+00:00",
+      "sha256": "532570c95d1a0bf671a5565fa3c2a6131d3579f4378dd852012b39335a7668e3",
+      "size_bytes": 14168,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
@@ -499,9 +499,9 @@
     "sketch": {
       "category": "creative/sketch",
       "skill_version": "1.0.0",
-      "sha256": "69dd33c3f0ddf28a3b7e6cb145b30f46a553fe8ba2f57a53ac741bf4c77cb9fe",
-      "size_bytes": 9522,
-      "last_modified": "2026-05-14T18:08:31.858686+00:00",
+      "sha256": "c643ff8657341b39284dbe1c70442b4ac746f5702d8457759376d4165d6879e5",
+      "size_bytes": 9304,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
@@ -516,9 +516,9 @@
     "songwriting-and-ai-music": {
       "category": "creative/songwriting-and-ai-music",
       "skill_version": "0.0.0",
-      "sha256": "673d5de3d3b0253d6f04bb23d0b42a0ba41dd0b4f5efebadee5ecc1bd7bdc298",
-      "size_bytes": 10493,
-      "last_modified": "2026-05-14T18:08:31.858686+00:00",
+      "sha256": "093dfa88e5b3596a35463a516733d014c202d14b49643724dea65e9c09c970b1",
+      "size_bytes": 10206,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
@@ -533,9 +533,9 @@
     "touchdesigner-mcp": {
       "category": "creative/touchdesigner-mcp",
       "skill_version": "1.1.0",
-      "sha256": "d74a480b1e59b4a73359e5a3926bca7fa6297f483dcc03f65dcfbb92071e4fc2",
-      "size_bytes": 15785,
-      "last_modified": "2026-06-07T21:17:23.004522+00:00",
+      "sha256": "70a4217786c49122b76f2247fe63b18a61f4a0feaf18f4a4b5d176f2125b3641",
+      "size_bytes": 15429,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
@@ -550,9 +550,9 @@
     "jupyter-live-kernel": {
       "category": "data-science/jupyter-live-kernel",
       "skill_version": "1.0.0",
-      "sha256": "c3c49948aa3e9628816307ce7d27d4a980c53cb004f1798bd9bb0329e2e3e561",
-      "size_bytes": 5452,
-      "last_modified": "2026-05-14T18:08:31.874391+00:00",
+      "sha256": "d93c4b4f50e66c0c074d49e43e28bf5ab87531eaa48884d0083568db827f5869",
+      "size_bytes": 5285,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
@@ -567,9 +567,9 @@
     "kanban-orchestrator": {
       "category": "devops/kanban-orchestrator",
       "skill_version": "3.0.0",
-      "sha256": "4ddce68299136bb7d043d750a90670542b291f198439d5c6ac98942c62007718",
-      "size_bytes": 16045,
-      "last_modified": "2026-06-04T16:53:46.574521+00:00",
+      "sha256": "e82d8bb8a87173ee1feb99494bac3774a6fa26b33c8d22a6233328b243554f0a",
+      "size_bytes": 15831,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
@@ -584,9 +584,9 @@
     "kanban-worker": {
       "category": "devops/kanban-worker",
       "skill_version": "2.0.0",
-      "sha256": "bbc91346208a64e03b2b36bfa91411ee5d39152490c2fba2ca70a308e16a6921",
-      "size_bytes": 11172,
-      "last_modified": "2026-06-04T16:53:46.574521+00:00",
+      "sha256": "806c5f0fe2d4d0df8da91f720032bb6524b4dbecf6b4532aee9b3a7914401c89",
+      "size_bytes": 10979,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
@@ -601,9 +601,9 @@
     "webhook-subscriptions": {
       "category": "devops/webhook-subscriptions",
       "skill_version": "1.1.0",
-      "sha256": "41c3419af241b39971a0e201ccf83b77f1fe2f09b3796672135051dcb7cb5566",
-      "size_bytes": 7040,
-      "last_modified": "2026-05-14T18:08:31.877400+00:00",
+      "sha256": "dfb4ddad9b7911dbbd72d33029c33235c39e2af5947fd35738094752eaed64a8",
+      "size_bytes": 6836,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
@@ -618,9 +618,9 @@
     "wsl2-model-serving": {
       "category": "devops/wsl2-model-serving",
       "skill_version": "0.0.0",
-      "sha256": "4b3c2315d3e1e68db340a51bae3a0696e0bddac39e444728cbbc413aaf472a3a",
-      "size_bytes": 4946,
-      "last_modified": "2026-06-09T23:54:37.197041+00:00",
+      "sha256": "16a522d043493196692920d035dec892a5986bc42003130ececfafdde082ffe3",
+      "size_bytes": 4829,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
@@ -652,9 +652,9 @@
     "dogfood": {
       "category": "dogfood",
       "skill_version": "1.0.0",
-      "sha256": "fd6041a31d7421e3df647f6bac1aeb91ce29b236ce5b7ab58dbfe52f49bf8c2b",
-      "size_bytes": 7106,
-      "last_modified": "2026-06-10T16:56:06.429046+00:00",
+      "sha256": "d6e7fb4d68d9c6babcc68611d29ff84af2340a642e229bcca048829882aa16cb",
+      "size_bytes": 6942,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
@@ -669,9 +669,9 @@
     "himalaya": {
       "category": "email/himalaya",
       "skill_version": "1.1.0",
-      "sha256": "e77fed4447b58ce621972adf2067d0cb905264d404242f7d1234a6970ace2858",
-      "size_bytes": 7468,
-      "last_modified": "2026-06-01T20:59:22.196615+00:00",
+      "sha256": "4410c2e6fce5c2416201e855098cd0c181ce07feb44f8ac6cc6eb54fa8ed6d62",
+      "size_bytes": 7164,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
@@ -1179,9 +1179,9 @@
     "minecraft-modpack-server": {
       "category": "gaming/minecraft-modpack-server",
       "skill_version": "0.0.0",
-      "sha256": "58303d792f2df5b79c92f1eeb54edf130d87188329bd541eab73069b9707fde4",
-      "size_bytes": 6746,
-      "last_modified": "2026-05-14T18:08:31.887100+00:00",
+      "sha256": "858f64c0e67efb296f832e63fdd3aedd16e954a2da474619eeaafef3cafec821",
+      "size_bytes": 6559,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
@@ -1196,9 +1196,9 @@
     "pokemon-player": {
       "category": "gaming/pokemon-player",
       "skill_version": "0.0.0",
-      "sha256": "73af09bbb1be84c69c293bd9a46ed97e4d0e800be346877c40f76c772a68ca53",
-      "size_bytes": 8925,
-      "last_modified": "2026-05-14T18:08:31.888179+00:00",
+      "sha256": "fe8da8e6dc5599ef3f5a0d4ffb8cb03083227643e2ca9594b9e2be19e07e667c",
+      "size_bytes": 8709,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
@@ -1213,9 +1213,9 @@
     "gepeto": {
       "category": "gepeto",
       "skill_version": "0.0.0",
-      "sha256": "72f438f61b242d46c5139eb8a68c92a6d0a94d73d0342619f219af2fecac8e15",
-      "size_bytes": 42703,
-      "last_modified": "2026-05-08T20:16:27.865968+00:00",
+      "sha256": "da968fe262d908383ddc2837366ee93e071577a6346838bf3a8e0a1014a60d0e",
+      "size_bytes": 42148,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
@@ -1230,9 +1230,9 @@
     "codebase-inspection": {
       "category": "github/codebase-inspection",
       "skill_version": "1.0.0",
-      "sha256": "6757a9541e03f4c3fb191f7c680fb3f7d603687422bd77602203003acba4546f",
-      "size_bytes": 3744,
-      "last_modified": "2026-05-14T18:08:31.890203+00:00",
+      "sha256": "87ddc0578d9bcbc80addb34ca045e4263689873ce02b1b73e3d57275ec6315c6",
+      "size_bytes": 3628,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
@@ -1315,9 +1315,9 @@
     "github-repo-management": {
       "category": "github/github-repo-management",
       "skill_version": "1.1.0",
-      "sha256": "d27fec8f6c4bfde98b95c58f22bb968423eb71c3022a73d49bb25907a0ddd8c5",
-      "size_bytes": 15426,
-      "last_modified": "2026-06-13T04:36:54.285335+00:00",
+      "sha256": "f8386be60ad8d2bf56104b75427aec93b26418191c76a3f1fbf5b4b002dbbb5d",
+      "size_bytes": 14882,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
@@ -1366,9 +1366,9 @@
     "guizang-ppt-skill": {
       "category": "guizang-ppt-skill",
       "skill_version": "0.0.0",
-      "sha256": "85943838bf8e06bfb066212410f4d3015d0cab39c13d2f216250173bd837a65f",
-      "size_bytes": 36603,
-      "last_modified": "2026-06-09T00:07:34.496325+00:00",
+      "sha256": "6fd2505f6269bb5e3b9437dc098b5741409e74857573611ad2c37b2d4a50dae9",
+      "size_bytes": 36062,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
@@ -1400,9 +1400,9 @@
     "higgs-tts-serving": {
       "category": "higgs-tts-serving",
       "skill_version": "0.0.0",
-      "sha256": "61df700cd8313a4eb2668de58f2dfa3017ecd70b0e3520737be0a04848ab88f4",
-      "size_bytes": 7982,
-      "last_modified": "2026-06-09T23:37:34.420403+00:00",
+      "sha256": "c55999e29172a0003114d175605c228b87a9b7f5c4e8de639c90a5cb4d45f961",
+      "size_bytes": 7787,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
@@ -1434,9 +1434,9 @@
     "installing-skills": {
       "category": "installing-skills",
       "skill_version": "0.0.0",
-      "sha256": "2652f08ae98a054db0a1d8fe39e1309257d0ea4129cbced9cfa6e9d156c8f554",
-      "size_bytes": 11195,
-      "last_modified": "2026-06-09T00:10:01.596435+00:00",
+      "sha256": "ae0b1cbc66041252cff2547a291a5d890fbda02ee111c76ac3beb54444c1c361",
+      "size_bytes": 10927,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
@@ -1451,9 +1451,9 @@
     "local-ai-desktop-app": {
       "category": "local-ai-desktop-app",
       "skill_version": "0.0.0",
-      "sha256": "371f186a611c39270b54c7f46a3fde342e87e3cb52f12bf173b312d83428c7e9",
-      "size_bytes": 14328,
-      "last_modified": "2026-06-10T13:38:23.522862+00:00",
+      "sha256": "f586a48d586f436e9f06edbef3da9adf833d8d414ec539952d4a2911953db9fe",
+      "size_bytes": 14153,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
@@ -1468,9 +1468,9 @@
     "native-mcp": {
       "category": "mcp/native-mcp",
       "skill_version": "1.0.0",
-      "sha256": "a8872ad978ac558548cf88528b0ebb936890303e58371fde486fd5f4ba21aaec",
-      "size_bytes": 12722,
-      "last_modified": "2026-05-14T18:08:31.907096+00:00",
+      "sha256": "59d2c150022d7906fb5d126389496c8bf4b675b06c615c606b12978865ee65e0",
+      "size_bytes": 12365,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
@@ -1502,9 +1502,9 @@
     "heartmula": {
       "category": "media/heartmula",
       "skill_version": "1.0.0",
-      "sha256": "088d91a19bbb8b50a8e558e655da88acf6e15be5211f7dfb9d9d4dc0605ecfae",
-      "size_bytes": 6583,
-      "last_modified": "2026-05-14T18:08:31.912771+00:00",
+      "sha256": "d6f8322ba9ab47564ff73dc0ee8d8158d78cea4de557e5b0abe5c6921a12fa57",
+      "size_bytes": 6412,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
@@ -1519,9 +1519,9 @@
     "songsee": {
       "category": "media/songsee",
       "skill_version": "1.0.0",
-      "sha256": "d399b3f6a85ba7f14bf59e7954013142c3f3737119e5e4a5c3470d1a13db36b1",
-      "size_bytes": 2419,
-      "last_modified": "2026-05-14T18:08:31.912771+00:00",
+      "sha256": "d9d8d1394c630bd83329cd54cd8f18e0e3cd140debe31c3ccf5d9667f054de07",
+      "size_bytes": 2336,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
@@ -1536,9 +1536,9 @@
     "spotify": {
       "category": "media/spotify",
       "skill_version": "1.0.0",
-      "sha256": "52178ff7594b41f52d112036343bbce791066d2946491a074e2be53c2d8b835f",
-      "size_bytes": 6454,
-      "last_modified": "2026-05-14T18:08:31.912771+00:00",
+      "sha256": "84b4c86e75f082882188bff3591eca78d222c0b337ef421a762e1a36139b66eb",
+      "size_bytes": 6319,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
@@ -1570,9 +1570,9 @@
     "evaluating-llms-harness": {
       "category": "mlops/evaluation/lm-evaluation-harness",
       "skill_version": "1.0.0",
-      "sha256": "ffcecb9f2b7af7b70a6815eff30f7f573895cbbcd71032a8f19ce205b134961c",
-      "size_bytes": 12518,
-      "last_modified": "2026-05-14T18:08:31.918373+00:00",
+      "sha256": "5426016d51e3b49e85c0ddc53a837393463a4f77aaa52ae504b78ff5ed596a67",
+      "size_bytes": 12020,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
@@ -1587,9 +1587,9 @@
     "weights-and-biases": {
       "category": "mlops/evaluation/weights-and-biases",
       "skill_version": "1.0.0",
-      "sha256": "87bc56a8a27df7186d33f1dbabed83dd20b0875e1313bd492d81736060c953f4",
-      "size_bytes": 12989,
-      "last_modified": "2026-05-14T18:08:31.921272+00:00",
+      "sha256": "7cabb8bcc00797373ada06b51fcf7b504f51d79b8816829847635bbb03bb5d9c",
+      "size_bytes": 12395,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
@@ -1604,9 +1604,9 @@
     "huggingface-hub": {
       "category": "mlops/huggingface-hub",
       "skill_version": "1.0.0",
-      "sha256": "1c0564744b42e2e398294bb415e0f12ccc9bf102d75c7463217769e372c71d90",
-      "size_bytes": 3755,
-      "last_modified": "2026-05-14T18:08:31.924025+00:00",
+      "sha256": "10d5bdf26e08ce4728923d8321493d1d18f7413f3a621e64c8feae6263cfe54c",
+      "size_bytes": 3674,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
@@ -1621,9 +1621,9 @@
     "llama-cpp": {
       "category": "mlops/inference/llama-cpp",
       "skill_version": "2.1.2",
-      "sha256": "8c2c162b7d9545622b7c0467fa9d778899f7dceecb96a4f9a2ff917888230b59",
-      "size_bytes": 9129,
-      "last_modified": "2026-05-14T18:08:31.927035+00:00",
+      "sha256": "9c1ef45f6197fbc08b643416d5f2c2e5469dbd45fb01e17cf48a0406ffacf8c2",
+      "size_bytes": 8880,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
@@ -1638,9 +1638,9 @@
     "obliteratus": {
       "category": "mlops/inference/obliteratus",
       "skill_version": "2.0.0",
-      "sha256": "7c137c9ceaaffe62446e0df2edf2dcb003d632405492407265df1ab510d541e7",
-      "size_bytes": 15806,
-      "last_modified": "2026-05-14T18:08:31.930589+00:00",
+      "sha256": "9fb394a0af2a9733bc7e88919580a49c4a17108d0012543a839138ced5aac8d1",
+      "size_bytes": 15464,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
@@ -1655,9 +1655,9 @@
     "serving-llms-vllm": {
       "category": "mlops/inference/vllm",
       "skill_version": "1.0.0",
-      "sha256": "c181ae2abff477b5754336cd8171dcac6902fe8961de0cb953ee2905d75c6bdc",
-      "size_bytes": 9443,
-      "last_modified": "2026-05-14T18:08:31.934192+00:00",
+      "sha256": "ab72192b7aee4e6d5db617a286ef2733911eb4f38313f67e1d0fe9cdba69fb3e",
+      "size_bytes": 9071,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -1672,9 +1672,9 @@
     "local-tts-serving": {
       "category": "mlops/local-tts-serving",
       "skill_version": "0.0.0",
-      "sha256": "4c3b3c58b61a7101840dab029371d67251659b4de835acf4b114538d62d242cf",
-      "size_bytes": 5081,
-      "last_modified": "2026-06-10T00:13:36.400511+00:00",
+      "sha256": "0053d81c691cf1805be02674cda9eacfa21783a01b581019c681e140c6b3b868",
+      "size_bytes": 4968,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -1689,9 +1689,9 @@
     "audiocraft-audio-generation": {
       "category": "mlops/models/audiocraft",
       "skill_version": "1.0.0",
-      "sha256": "63f07d9ee2ad2e83fff561f472af1fab15773166fb8c636bef0083352af01d67",
-      "size_bytes": 16757,
-      "last_modified": "2026-05-14T18:08:31.938745+00:00",
+      "sha256": "eebe52632e3312a55a352d766828e7153b2ee23e2e67c0e4e874474e5c52198c",
+      "size_bytes": 16189,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -1706,9 +1706,9 @@
     "segment-anything-model": {
       "category": "mlops/models/segment-anything",
       "skill_version": "1.0.0",
-      "sha256": "198715c51b662f92e21fcdd4f8762427e9277827a0dad0fcfe3314264a3f845d",
-      "size_bytes": 13878,
-      "last_modified": "2026-05-14T18:08:31.940258+00:00",
+      "sha256": "86440d99e8ec3bd7f0a92640d62bf307915ec2a7154e45dd55a214d58ee6966d",
+      "size_bytes": 13372,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -1723,9 +1723,9 @@
     "dspy": {
       "category": "mlops/research/dspy",
       "skill_version": "1.0.0",
-      "sha256": "a1633efa5bc86290bdee59e6536bc1bcde1a6a0606d375defa0010243d5446ee",
-      "size_bytes": 15814,
-      "last_modified": "2026-05-14T18:08:31.942818+00:00",
+      "sha256": "67410a6b216d79eb257eba1c5d0fa945080b98998ffc131e2cf873bee77e3dd0",
+      "size_bytes": 15220,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -1740,9 +1740,9 @@
     "tts-pipeline-debugging": {
       "category": "mlops/tts-pipeline-debugging",
       "skill_version": "0.0.0",
-      "sha256": "038c192554f7de34401bb6d4489a42931348a941c39de8bf0153e5619b074c5a",
-      "size_bytes": 4130,
-      "last_modified": "2026-06-10T01:08:22.158740+00:00",
+      "sha256": "beab69c31e331ba2bd42c055c739cb7aa0f1d424ca689b728e101c7d169faf21",
+      "size_bytes": 4052,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -1757,9 +1757,9 @@
     "tts-serving": {
       "category": "mlops/tts-serving",
       "skill_version": "0.0.0",
-      "sha256": "e1551025e3e15693448608430a18dd7de8c857263c7979db52f2a9c868829a32",
-      "size_bytes": 5393,
-      "last_modified": "2026-06-10T00:53:06.819967+00:00",
+      "sha256": "be52b0671e56d25b35d231c7087ff237a7ee6a7affb035d63ad848d635531bba",
+      "size_bytes": 5249,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -1774,9 +1774,9 @@
     "tts-synthesis": {
       "category": "mlops/tts-synthesis",
       "skill_version": "0.0.0",
-      "sha256": "da50d895fd36fc889b5bc400c096474bb795277475a93b972dbc53cb99b0a14a",
-      "size_bytes": 5305,
-      "last_modified": "2026-06-10T00:22:00.933757+00:00",
+      "sha256": "4d79dc89d178df92a5400c7d0015a89900407f9d00feef31bb5575d3d9560e5f",
+      "size_bytes": 5185,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -1791,9 +1791,9 @@
     "actor-reading": {
       "category": "note-taking/actor-reading",
       "skill_version": "0.0.0",
-      "sha256": "56c316054651dac13671e2853614ed30f920b90fc69c84db59fbeccd45a1b62d",
-      "size_bytes": 4600,
-      "last_modified": "2026-06-12T08:13:11.342422+00:00",
+      "sha256": "76fea1d0c7b0e22a128d369f5f99723c33c1a7eccfaec8aa7361c0f1210bb968",
+      "size_bytes": 4542,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -1859,9 +1859,9 @@
     "google-workspace": {
       "category": "productivity/google-workspace",
       "skill_version": "1.1.0",
-      "sha256": "9dc9456a4f2bcd4e02326d29a4e1b8f9558d899bef7dbeb307cd54829181bb2b",
-      "size_bytes": 13746,
-      "last_modified": "2026-06-07T21:17:23.050085+00:00",
+      "sha256": "014a4818ee1b363d11fafa2353bcea4fd4f8e0c0802322708023d3cd2e3f43b6",
+      "size_bytes": 13411,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -1876,9 +1876,9 @@
     "identity-sync": {
       "category": "productivity/identity-sync",
       "skill_version": "0.0.0",
-      "sha256": "c29fc5242460266fb8a12e10c35b157951d3cb896044240d953491c2dbbdd75a",
-      "size_bytes": 6371,
-      "last_modified": "2026-06-13T14:20:25.527010+00:00",
+      "sha256": "c320c54661164b75c2017492759671aeb2b89f8bce41a9ae2e375f1218797152",
+      "size_bytes": 6208,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -1893,9 +1893,9 @@
     "levite": {
       "category": "productivity/levite",
       "skill_version": "0.0.0",
-      "sha256": "236eda4f577cae182bf7a23833b95588ffcd040f01843cbf69e8be16d2e3bfe5",
-      "size_bytes": 10854,
-      "last_modified": "2026-06-13T11:02:40.230967+00:00",
+      "sha256": "864ee72939b41c28e63c9028d99ee9a29ef52e84924b329c8f8c6772de2dff35",
+      "size_bytes": 10709,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -1910,9 +1910,9 @@
     "linear": {
       "category": "productivity/linear",
       "skill_version": "1.0.0",
-      "sha256": "dfdfc0bcff9c4b992fd1bf99e7bdd2dc1573e220869c8bf0b12c13ee1700d186",
-      "size_bytes": 15162,
-      "last_modified": "2026-05-14T18:08:31.952732+00:00",
+      "sha256": "e7b6fbb8b55f84903759a4b01462938453d5ccc92318bdbdd637f6704a8726ff",
+      "size_bytes": 14782,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -1927,9 +1927,9 @@
     "maps": {
       "category": "productivity/maps",
       "skill_version": "1.2.0",
-      "sha256": "effbd8f7f2609fd5c288c3c576eed24508de208fbc832ad60373614850bb8264",
-      "size_bytes": 6921,
-      "last_modified": "2026-05-14T18:08:31.952732+00:00",
+      "sha256": "8c961ecf662838e3ff287570d343db8b1587ca7a6d565ec53eeab13f89407b29",
+      "size_bytes": 6726,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -1944,9 +1944,9 @@
     "nano-pdf": {
       "category": "productivity/nano-pdf",
       "skill_version": "1.0.0",
-      "sha256": "78f3bc74954db5e143253fa4b6c8265fc50cd1cc55b8dc540681c082eafcd3a4",
-      "size_bytes": 1466,
-      "last_modified": "2026-05-14T18:08:31.958732+00:00",
+      "sha256": "4243b329789c6d7fcea95749438228e5f8cbc0234cd44d2d72cd86f837bf1f35",
+      "size_bytes": 1414,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -1978,9 +1978,9 @@
     "ocr-and-documents": {
       "category": "productivity/ocr-and-documents",
       "skill_version": "2.3.0",
-      "sha256": "249b1033cea02c40f52308f43c740d12790d1ef0674663b18f4ca75238776e36",
-      "size_bytes": 5452,
-      "last_modified": "2026-05-14T18:08:31.958732+00:00",
+      "sha256": "720a1f1a534167ef29b563199e76e3146b2d77b3455a772c6eae5696ef7a384a",
+      "size_bytes": 5280,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -1995,9 +1995,9 @@
     "powerpoint": {
       "category": "productivity/powerpoint",
       "skill_version": "0.0.0",
-      "sha256": "45a7803b050e025a1728af5e26c0b6436654f78857294b329d17703d24859377",
-      "size_bytes": 9535,
-      "last_modified": "2026-05-14T18:08:31.962818+00:00",
+      "sha256": "bb2084f5da312eec50f8ab3b1cb0f6ad3a86f4933f521b273fdc4dd1d4f52ada",
+      "size_bytes": 9298,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -2012,9 +2012,9 @@
     "skill-sync": {
       "category": "productivity/skill-sync",
       "skill_version": "0.0.0",
-      "sha256": "a2d4ded251036d830d34eb24350c65a26d9e1aa34235311a3f420af13a040600",
-      "size_bytes": 6244,
-      "last_modified": "2026-06-13T14:09:42.197124+00:00",
+      "sha256": "5c9a2762e61e52b40f6f9e59a07bb809f4ca870464eb3144339fd514e446bd04",
+      "size_bytes": 6067,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -2046,9 +2046,9 @@
     "yt-transcribe": {
       "category": "productivity/yt-transcribe",
       "skill_version": "3.0.0",
-      "sha256": "ed2244d4de9c92363a527c7a1545c239ef6126cd076de1bbf0767062666d3870",
-      "size_bytes": 19654,
-      "last_modified": "2026-06-13T12:35:34.765966+00:00",
+      "sha256": "771f348f1e9e0b9beccbf3da172f301aa91a147fcabbbcfed350a35446aaa114",
+      "size_bytes": 19271,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -2080,9 +2080,9 @@
     "godmode": {
       "category": "red-teaming/godmode",
       "skill_version": "1.0.0",
-      "sha256": "0f8a0dd4d25d7c1b6a9311d71ead35d132a9580303a114ddfe45eeb930aa317a",
-      "size_bytes": 20447,
-      "last_modified": "2026-06-04T10:14:26.852490+00:00",
+      "sha256": "6c50d7f682eeb2dc6a241b2265acb5e3dcb46143299b14760116868904a3f525",
+      "size_bytes": 20044,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -2097,9 +2097,9 @@
     "arxiv": {
       "category": "research/arxiv",
       "skill_version": "1.0.0",
-      "sha256": "f33b79e6d282e774f8f011c3f409d761e37cce27b41a1e85a58f917a96c1d7c1",
-      "size_bytes": 10367,
-      "last_modified": "2026-05-14T18:08:32.003109+00:00",
+      "sha256": "2a6073a1ad08823dbdf26be64440b54155298db38fdee52c7b0a5d1cd0cfb05d",
+      "size_bytes": 10085,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -2114,9 +2114,9 @@
     "blogwatcher": {
       "category": "research/blogwatcher",
       "skill_version": "2.0.0",
-      "sha256": "344dd8f0584e07e3511d5bde63679fb4d336e904b74850351f7055ae8628cd60",
-      "size_bytes": 5248,
-      "last_modified": "2026-05-14T18:08:32.004670+00:00",
+      "sha256": "b85be5a9b86b90287266dd142a0ae9740be926298fbcb772f56b8a4d6451bb12",
+      "size_bytes": 5111,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -2148,9 +2148,9 @@
     "polymarket": {
       "category": "research/polymarket",
       "skill_version": "1.0.0",
-      "sha256": "2e627882bb7edca82837eac46baeb38064c0438e2fde9abd407c57380973bb5e",
-      "size_bytes": 3062,
-      "last_modified": "2026-05-14T18:08:32.004670+00:00",
+      "sha256": "becfa71e730b482c3f087c4de4071fd25f0feb475aec1293aee0b845c10fa190",
+      "size_bytes": 2985,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -2165,9 +2165,9 @@
     "research-paper-writing": {
       "category": "research/research-paper-writing",
       "skill_version": "1.1.0",
-      "sha256": "77925bfdfc6382644a0d4a8d6a3169814467c12a16ad2558994860d040602aa7",
-      "size_bytes": 105752,
-      "last_modified": "2026-05-14T18:08:32.004670+00:00",
+      "sha256": "5bc92cec8357a19d71b1c10c5590ab605e846e4ddd914512511f8281a6053186",
+      "size_bytes": 103375,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -2182,9 +2182,9 @@
     "rungano-dev": {
       "category": "rungano-dev",
       "skill_version": "0.0.0",
-      "sha256": "222c31ededed0e8910b49636e6fa6e2d2425963f78f96962c172e47ed6b83f46",
-      "size_bytes": 6912,
-      "last_modified": "2026-06-10T14:10:32.423568+00:00",
+      "sha256": "4d99074b3dc8c548ddee15827878c518269b125870e139cd01f63b0231a67c5a",
+      "size_bytes": 6742,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -2199,9 +2199,9 @@
     "setup-matt-pocock-skills": {
       "category": "setup-matt-pocock-skills",
       "skill_version": "0.0.0",
-      "sha256": "8ab6bc8e544e4f95e970e1021d391a856a7759cb79385ff4a8576677150acc6c",
-      "size_bytes": 10658,
-      "last_modified": "2026-06-08T22:24:15.331395+00:00",
+      "sha256": "da8d47233fd71f2154d6ef69a4d189b28ace2bda89ee43cce037f613f87dcb5b",
+      "size_bytes": 10491,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -2216,9 +2216,9 @@
     "openhue": {
       "category": "smart-home/openhue",
       "skill_version": "1.0.0",
-      "sha256": "1bf154e8afd664f492273e88021850d031900402c263e3f91f0b71f0dab70fa2",
-      "size_bytes": 2822,
-      "last_modified": "2026-05-14T18:08:32.047553+00:00",
+      "sha256": "550f94848d10ab82619db8fec240a4d2b792c33606fba5d391bf3a78bc1119e9",
+      "size_bytes": 2713,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -2233,9 +2233,9 @@
     "xurl": {
       "category": "social-media/xurl",
       "skill_version": "1.1.1",
-      "sha256": "7a8cc8b23552faf5d0e95d6f64cb99b610e0755a9b760de910d76c0681b5e39f",
-      "size_bytes": 15950,
-      "last_modified": "2026-06-04T10:14:26.853479+00:00",
+      "sha256": "8b1899dc7188328a6589cd62ed594591c2d243c483bdfbd45c8a027f4e0332dd",
+      "size_bytes": 15518,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -2250,9 +2250,9 @@
     "browser-game-build-and-verify": {
       "category": "software-development/browser-game-build-and-verify",
       "skill_version": "0.0.0",
-      "sha256": "37bfcae45f53e9624e2ac948a71066b7b0d52979ad3fd7e93a731676009b8ea3",
-      "size_bytes": 12490,
-      "last_modified": "2026-06-11T13:11:37.087920+00:00",
+      "sha256": "77052e127d5e183e0bf21fb568d3d604ecb32e5ae7e54ac5669a9e7d44b1ec44",
+      "size_bytes": 12418,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -2267,9 +2267,9 @@
     "debugging-hermes-tui-commands": {
       "category": "software-development/debugging-hermes-tui-commands",
       "skill_version": "1.0.0",
-      "sha256": "c2e3cb5131ecb40bb1ff51613f438aa2bb913b4600dda003025eebb3979df4c5",
-      "size_bytes": 8062,
-      "last_modified": "2026-05-14T18:08:32.049065+00:00",
+      "sha256": "55d5811c0b2d872dc59d87432720a113150dbbce2872524a36b3860a8967095d",
+      "size_bytes": 7910,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -2284,9 +2284,9 @@
     "desktop-app-shell-windows": {
       "category": "software-development/desktop-app-shell-windows",
       "skill_version": "0.0.0",
-      "sha256": "3e44640ae5f84bc59a2669795954af2600ef0f810472f693b7e504e45cff0167",
-      "size_bytes": 18153,
-      "last_modified": "2026-06-10T11:47:38.065137+00:00",
+      "sha256": "459d2c2840606ba0a32f8348d7ea084885bc50346d690335c15d4ff7ec8252a4",
+      "size_bytes": 17965,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
@@ -2301,9 +2301,9 @@
     "hermes-agent-skill-authoring": {
       "category": "software-development/hermes-agent-skill-authoring",
       "skill_version": "1.0.0",
-      "sha256": "6cb7d621dec5fb766975e4ce5c3e41a540fa2322956dba36c551e5870f5b21c2",
-      "size_bytes": 8858,
-      "last_modified": "2026-06-10T18:29:01.096709+00:00",
+      "sha256": "27cab8bf902d6fbb17bfac1ab856ebaf05ffc95f5ae075362acb525abab20f85",
+      "size_bytes": 8685,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
@@ -2318,9 +2318,9 @@
     "hermes-s6-container-supervision": {
       "category": "software-development/hermes-s6-container-supervision",
       "skill_version": "1.0.0",
-      "sha256": "3d97ccc9468d1cdbf894eca1f6505486cf34bb2c92af89c1d8288205490d2624",
-      "size_bytes": 11650,
-      "last_modified": "2026-06-01T20:59:22.203134+00:00",
+      "sha256": "14d42314746571421ff7ca90cbc2cb34b428a09a6d4424fa942bc2ff79e344f2",
+      "size_bytes": 11474,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
@@ -2335,9 +2335,9 @@
     "higgs-tts-development": {
       "category": "software-development/higgs-tts-development",
       "skill_version": "0.0.0",
-      "sha256": "f5ab3f822af49e3ce648c8548e319460dc5ceaf209392805b24089e4025e2e7e",
-      "size_bytes": 15065,
-      "last_modified": "2026-06-10T15:45:54.657340+00:00",
+      "sha256": "920aa295fa2beeb58b818918dd459923434a3aedfd1af761bea93f70435ba603",
+      "size_bytes": 14745,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
@@ -2352,9 +2352,9 @@
     "knowledge-tree-explorer-dev": {
       "category": "software-development/knowledge-tree-explorer-dev",
       "skill_version": "0.0.0",
-      "sha256": "636da3b2ae76a30f467ef0673dee1a91914640f0ef1245af2f9f3e4945a50adc",
-      "size_bytes": 11799,
-      "last_modified": "2026-06-11T13:31:03.482098+00:00",
+      "sha256": "4304f9444bb0d4a7420d7a0bed367bc426718968393c47e3eecc9ae028fced61",
+      "size_bytes": 11573,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
@@ -2369,9 +2369,9 @@
     "local-ai-model-integration": {
       "category": "software-development/local-ai-model-integration",
       "skill_version": "0.0.0",
-      "sha256": "04ed01dd2a712dd230e60d12b2fe1dc35f803e91e461d9c332ab197410c55828",
-      "size_bytes": 17346,
-      "last_modified": "2026-06-10T18:29:37.061674+00:00",
+      "sha256": "576deb19c642e909d4d319c4fac725767ef03c8c3ede3f69347b8ea5b67960eb",
+      "size_bytes": 17076,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
@@ -2386,9 +2386,9 @@
     "netlify-landing-site": {
       "category": "software-development/netlify-landing-site",
       "skill_version": "1.0.0",
-      "sha256": "9ebad94b1127abcafc52e542ab9088518802bcee967190d6046749dd6dd144bf",
-      "size_bytes": 10277,
-      "last_modified": "2026-06-13T04:36:47.843178+00:00",
+      "sha256": "6ee363e4fa1488f421aaef5f6f69a5de46c1328408cf793b492fd3eed1f1ee55",
+      "size_bytes": 10074,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
@@ -2403,9 +2403,9 @@
     "node-inspect-debugger": {
       "category": "software-development/node-inspect-debugger",
       "skill_version": "1.0.0",
-      "sha256": "24bcedf106b95d4e425090bb6fcca15cd27783720608e001e671791d0d23d3ed",
-      "size_bytes": 11248,
-      "last_modified": "2026-05-14T18:08:32.052477+00:00",
+      "sha256": "f2f72c0c9e67143effc8cb9871a242309813af72c61b8d62548ae275c86f2d08",
+      "size_bytes": 10929,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
@@ -2420,9 +2420,9 @@
     "plan": {
       "category": "software-development/plan",
       "skill_version": "2.0.0",
-      "sha256": "ee28848e562dbfb53a0cac5cf7564e0e600da8472093718bcf0ffb6cba6b8b16",
-      "size_bytes": 9784,
-      "last_modified": "2026-06-11T13:47:19.165956+00:00",
+      "sha256": "41c12b7ed41706efb18886d34f0fc89439609a87342293ef005becbacdd8d9b4",
+      "size_bytes": 9442,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
@@ -2437,9 +2437,9 @@
     "python-debugpy": {
       "category": "software-development/python-debugpy",
       "skill_version": "1.0.0",
-      "sha256": "6edfa04793d4fef99a0eaa7f1a9c99ac12d6d240d90406b41d4823a60cc4a176",
-      "size_bytes": 13547,
-      "last_modified": "2026-05-14T18:08:32.052477+00:00",
+      "sha256": "ce7e38367ea54fb86e32d41be2fb3682482b7e3d748316cb666b3d4e3ca51a40",
+      "size_bytes": 13172,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
@@ -2454,9 +2454,9 @@
     "requesting-code-review": {
       "category": "software-development/requesting-code-review",
       "skill_version": "2.0.0",
-      "sha256": "669d275d5cbb89790709747d1c3b4dad145e214c80e97e3e81fc8479d188783a",
-      "size_bytes": 8745,
-      "last_modified": "2026-06-04T16:53:46.574521+00:00",
+      "sha256": "1126afb626b38f5b398afac61de1c2c5551913d020f7c745e5468a78f143bcfd",
+      "size_bytes": 8465,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
@@ -2471,9 +2471,9 @@
     "safe-js-editing": {
       "category": "software-development/safe-js-editing",
       "skill_version": "0.0.0",
-      "sha256": "939240f146dc7844c769e5e9e2593ba3dcea5f30338b52a837a0b0dd7b70a59c",
-      "size_bytes": 3984,
-      "last_modified": "2026-06-11T13:27:02.254297+00:00",
+      "sha256": "f83a71b69609bca815c881ef2863a54aeb9fe196d591d05ef241917ba9247a94",
+      "size_bytes": 3906,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
@@ -2505,9 +2505,9 @@
     "spike": {
       "category": "software-development/spike",
       "skill_version": "1.0.0",
-      "sha256": "df4a3da742ecb7cd7365d43a41beddbcc5261faa5aa561bb4aa222bfbf13edba",
-      "size_bytes": 8927,
-      "last_modified": "2026-06-04T16:53:46.578551+00:00",
+      "sha256": "891bc0a6fbb7aa6cb4164e48e2d20aae56aad7bbd83d20d093ba89a8ed2b48ab",
+      "size_bytes": 8730,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
@@ -2522,9 +2522,9 @@
     "subagent-driven-development": {
       "category": "software-development/subagent-driven-development",
       "skill_version": "1.1.0",
-      "sha256": "d9dac2bd83aa675b9277c5d5c3da68aa30c54c6311d82a0370ff6380cf912dd3",
-      "size_bytes": 11094,
-      "last_modified": "2026-05-14T18:08:32.055479+00:00",
+      "sha256": "3fe606f9b2f5127905e06812bbff2b8708a5b0e66a8330207ce3546792b33102",
+      "size_bytes": 10742,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
@@ -2539,9 +2539,9 @@
     "systematic-debugging": {
       "category": "software-development/systematic-debugging",
       "skill_version": "1.1.0",
-      "sha256": "0d5c71f7e686a542921d4734b8f690a378306c3ce550b7a1b463ac628b3237d6",
-      "size_bytes": 11436,
-      "last_modified": "2026-06-11T13:27:25.009495+00:00",
+      "sha256": "9c72a5993665fba0dddae9bd82e999e8e683b74b38bf493cd9d6dbf7e7449185",
+      "size_bytes": 11064,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
@@ -2556,9 +2556,9 @@
     "test-driven-development": {
       "category": "software-development/test-driven-development",
       "skill_version": "1.1.0",
-      "sha256": "0bbfb1d25e789b33bbc1abae385dfca11d29742cabdeaa7d7408022e7b088828",
-      "size_bytes": 9907,
-      "last_modified": "2026-06-04T16:53:46.579237+00:00",
+      "sha256": "f4e04cd62580322e491edb78f2e6ee7e4593e85844e1afd79a3edbbf74fce851",
+      "size_bytes": 9564,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
@@ -2573,9 +2573,9 @@
     "windows-shell-handling": {
       "category": "software-development/windows-shell-handling",
       "skill_version": "0.0.0",
-      "sha256": "15a971bf30b93b90d7e4e2f07dc9603b0676b8f379d02de9b3bf8d81d2bf728c",
-      "size_bytes": 20688,
-      "last_modified": "2026-06-11T13:40:09.742094+00:00",
+      "sha256": "0a4486433d4e22f447abec9bdf923b0e928de5180aca317f900d22525ba2b2cd",
+      "size_bytes": 20387,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
@@ -2590,9 +2590,9 @@
     "writing-plans": {
       "category": "software-development/writing-plans",
       "skill_version": "1.1.0",
-      "sha256": "972174a7e8e0e1f4b2b8302033439689e4c43135a4867a24c720a23e59759286",
-      "size_bytes": 7526,
-      "last_modified": "2026-05-14T18:08:32.060188+00:00",
+      "sha256": "b930d5746acc1b0c092ab8522df559723dcfd1dfcb5323a7da85c7c2dd872d0d",
+      "size_bytes": 7229,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
@@ -2607,9 +2607,9 @@
     "sse-streaming-pattern": {
       "category": "sse-streaming-pattern",
       "skill_version": "0.0.0",
-      "sha256": "ab48d46415aa48aef51ff1c08b9e2d4d016a9fab744121ae2255563cdfee07a2",
-      "size_bytes": 6554,
-      "last_modified": "2026-06-10T12:14:31.992660+00:00",
+      "sha256": "4f2cfb24b775154485488bfe68463e0e5c07bfaf6401a0a720ad312017777a99",
+      "size_bytes": 6384,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
@@ -2709,9 +2709,9 @@
     "landing-page-launch": {
       "category": "web/landing-page-launch",
       "skill_version": "1.0.0",
-      "sha256": "d55cc9e0c24d1e283ee64f5014c671cc9d60aadfd5a067a77c483b2472de21a9",
-      "size_bytes": 5146,
-      "last_modified": "2026-06-13T04:37:05.450176+00:00",
+      "sha256": "c51dd7d45028b2d97121fa80b1cd7d098eb36ab5f965ad8a16df31908a44dd2d",
+      "size_bytes": 5080,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.137050+00:00",
@@ -2743,9 +2743,9 @@
     "write-a-skill": {
       "category": "write-a-skill",
       "skill_version": "0.0.0",
-      "sha256": "d6184c9670094947bbb96cb8207499cd7f918f34b80de10377c63fbbf3f4a70d",
-      "size_bytes": 5790,
-      "last_modified": "2026-06-12T08:35:38.886136+00:00",
+      "sha256": "965639355c76f160760f1479001eab392b60ffad2faf8b4a515a803e8de57aaa",
+      "size_bytes": 5655,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.137050+00:00",
@@ -2760,9 +2760,9 @@
     "yuanbao": {
       "category": "yuanbao",
       "skill_version": "1.0.0",
-      "sha256": "5096a9fffebde016665dae9620fff25aedc926b569d9fa023454d152c2e60aac",
-      "size_bytes": 3903,
-      "last_modified": "2026-05-14T18:08:32.060750+00:00",
+      "sha256": "239e4875f511124fab06e94ff21511fd8f857554c6ffd82dfb796ed275b4ff32",
+      "size_bytes": 3795,
+      "last_modified": "2026-06-13T20:34:08.638665+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.137050+00:00",
