@@ -104,6 +104,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.132036+00:00",
           "sha256": "bdf27c02052f06d3d44ca82efa3249aa408f8ac00ffb9ec6051061965d5fc5f1"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "bdf27c02052f06d3d44ca82efa3249aa408f8ac00ffb9ec6051061965d5fc5f1"
         }
       }
     },
@@ -155,6 +159,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.132036+00:00",
+          "sha256": "b4bb6fe3bf3da222993ca0aee5e7c6f5368b182dd30ce1172e8f8e3280eb7052"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "b4bb6fe3bf3da222993ca0aee5e7c6f5368b182dd30ce1172e8f8e3280eb7052"
         }
       }
@@ -311,6 +319,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
+          "sha256": "2dd885dd96a63e4c3cff281fba639788bff956b4bb759157ef0b0681a114eaa3"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "2dd885dd96a63e4c3cff281fba639788bff956b4bb759157ef0b0681a114eaa3"
         }
       }
@@ -494,6 +506,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
           "sha256": "28886402bbfa0470248086eab9106a103b964b76ae9496e63ff0c8a6761b6d13"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "28886402bbfa0470248086eab9106a103b964b76ae9496e63ff0c8a6761b6d13"
         }
       }
     },
@@ -533,6 +549,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
           "sha256": "2479f7dc92739fff73d4f0f1100844955def921cc035d64cf749b00fee771bcf"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "2479f7dc92739fff73d4f0f1100844955def921cc035d64cf749b00fee771bcf"
         }
       }
     },
@@ -545,6 +565,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
+          "sha256": "9a8badff132ebea1b049ebb8404a4bc5f52e4485f9136e27b4a6e92584306324"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "9a8badff132ebea1b049ebb8404a4bc5f52e4485f9136e27b4a6e92584306324"
         }
       }
@@ -559,6 +583,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
           "sha256": "cb28225617a633afef90b03a928c4d22b64dd1672b5c41f98792577df1c2bf84"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "cb28225617a633afef90b03a928c4d22b64dd1672b5c41f98792577df1c2bf84"
         }
       }
     },
@@ -571,6 +599,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
+          "sha256": "cc8b77a25f924343f6363bacb2ac6f0fafa00780ea94165dac86ab83f688626c"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "cc8b77a25f924343f6363bacb2ac6f0fafa00780ea94165dac86ab83f688626c"
         }
       }
@@ -585,6 +617,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
           "sha256": "c85122ac58b7ea64c3613534428b7f85cd66fe1b1758a5d94ca1094548ada575"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "c85122ac58b7ea64c3613534428b7f85cd66fe1b1758a5d94ca1094548ada575"
         }
       }
     },
@@ -597,6 +633,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
+          "sha256": "e18d80ecfff5ddae40dd19f8360973b1996a55af16a81dbccc91aa754c5e691c"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "e18d80ecfff5ddae40dd19f8360973b1996a55af16a81dbccc91aa754c5e691c"
         }
       }
@@ -611,6 +651,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
           "sha256": "a270d3d9172e0048879a6e703f3815f85b90dbfff72a059a864b82ebb3fa2e95"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "a270d3d9172e0048879a6e703f3815f85b90dbfff72a059a864b82ebb3fa2e95"
         }
       }
     },
@@ -623,6 +667,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
+          "sha256": "a73942c75fa84a520b858ad5eff72550e1d8a21824be27e36d5ba544e2c18d15"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "a73942c75fa84a520b858ad5eff72550e1d8a21824be27e36d5ba544e2c18d15"
         }
       }
@@ -637,6 +685,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
           "sha256": "a5ddaae261c6c2c42884b28bceebd9fe9e89acae186d90c903f129d7339488e5"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "a5ddaae261c6c2c42884b28bceebd9fe9e89acae186d90c903f129d7339488e5"
         }
       }
     },
@@ -649,6 +701,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
+          "sha256": "ab9605d8576967f0203fa60379ba87ff4876a866f43d227998da473ee6d0815e"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "ab9605d8576967f0203fa60379ba87ff4876a866f43d227998da473ee6d0815e"
         }
       }
@@ -663,6 +719,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
           "sha256": "afc4dab22cb48efb25091a06d1cfa85239fce65d23c2c422d2baed6cb309e323"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "afc4dab22cb48efb25091a06d1cfa85239fce65d23c2c422d2baed6cb309e323"
         }
       }
     },
@@ -675,6 +735,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
+          "sha256": "8d32a50f6b2b66a78db69e1bf68f9e7e9fd51e5cc5ea62bdad025ddd79745a8b"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "8d32a50f6b2b66a78db69e1bf68f9e7e9fd51e5cc5ea62bdad025ddd79745a8b"
         }
       }
@@ -689,6 +753,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
           "sha256": "8c734be50e335cf8d371a32a691d3bedd09c78b2a9b2698fc5a5a62ae416a867"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "8c734be50e335cf8d371a32a691d3bedd09c78b2a9b2698fc5a5a62ae416a867"
         }
       }
     },
@@ -701,6 +769,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
+          "sha256": "f6ddfc4b857a7c54052e2a3fdf6531be0d7f512f85c9b4bb9cd183fc783ef60c"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "f6ddfc4b857a7c54052e2a3fdf6531be0d7f512f85c9b4bb9cd183fc783ef60c"
         }
       }
@@ -715,6 +787,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
           "sha256": "33ec3a6223b07f7dd486e08d829ed3be68bf5e4ad29ccdfcdf26d2058f043723"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "33ec3a6223b07f7dd486e08d829ed3be68bf5e4ad29ccdfcdf26d2058f043723"
         }
       }
     },
@@ -727,6 +803,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
+          "sha256": "2b8cbf4b0faeac3941c9a8ad73677ebdea5f10058b4d630b20b05c150d8ce2b7"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "2b8cbf4b0faeac3941c9a8ad73677ebdea5f10058b4d630b20b05c150d8ce2b7"
         }
       }
@@ -741,6 +821,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
           "sha256": "f009c55a3f4d3b2cb11205cea485be26277be832a6c956c8aefa1fd5b97c3309"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "f009c55a3f4d3b2cb11205cea485be26277be832a6c956c8aefa1fd5b97c3309"
         }
       }
     },
@@ -753,6 +837,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.133541+00:00",
+          "sha256": "1b52c42404c564aeb3a6a221165792f1194470b8159a6e89f9578d72c820ee84"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "1b52c42404c564aeb3a6a221165792f1194470b8159a6e89f9578d72c820ee84"
         }
       }
@@ -767,6 +855,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
           "sha256": "55e6ea4076bdda1aec82efb76115d5124f5ab8e6dc4efb403267219c9e693a8d"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "55e6ea4076bdda1aec82efb76115d5124f5ab8e6dc4efb403267219c9e693a8d"
         }
       }
     },
@@ -779,6 +871,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
+          "sha256": "9ec1040c5abdead2efd5cd5c996e41a3ae36b7716f558c0aa9444c1944cbc5dd"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "9ec1040c5abdead2efd5cd5c996e41a3ae36b7716f558c0aa9444c1944cbc5dd"
         }
       }
@@ -793,6 +889,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
           "sha256": "c6f694cab0dbfddc2eb2325b224b230180b3ce8703741725ac2f0e939032d7e2"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "c6f694cab0dbfddc2eb2325b224b230180b3ce8703741725ac2f0e939032d7e2"
         }
       }
     },
@@ -805,6 +905,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
+          "sha256": "f8f0c23d22f0440c0486fdfed27d82a06cfda7eb62da1d0ba21b2416595d0280"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "f8f0c23d22f0440c0486fdfed27d82a06cfda7eb62da1d0ba21b2416595d0280"
         }
       }
@@ -819,6 +923,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
           "sha256": "77aa296caf41a6aabd94506099704ff4e9e2f83c26c684a8a0f972c44494d127"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "77aa296caf41a6aabd94506099704ff4e9e2f83c26c684a8a0f972c44494d127"
         }
       }
     },
@@ -831,6 +939,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
+          "sha256": "472b810ca146a1f67274b06518445f3229509066f49d7f35db69ebbecc8556ea"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "472b810ca146a1f67274b06518445f3229509066f49d7f35db69ebbecc8556ea"
         }
       }
@@ -845,6 +957,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
           "sha256": "e946e2b4062da5df881f26b4de05a9c9e54d133b996de67ff488a464bac9bf77"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "e946e2b4062da5df881f26b4de05a9c9e54d133b996de67ff488a464bac9bf77"
         }
       }
     },
@@ -857,6 +973,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
+          "sha256": "a04bf7f3806fef718e48ad05ad20d38548410b2d51b92a4ad43cd8838068e0bc"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "a04bf7f3806fef718e48ad05ad20d38548410b2d51b92a4ad43cd8838068e0bc"
         }
       }
@@ -871,6 +991,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
           "sha256": "aafea0f0ecdf3a098492635b5f1a24ff4b8cf339945170beee8b75ce12ff4f0c"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "aafea0f0ecdf3a098492635b5f1a24ff4b8cf339945170beee8b75ce12ff4f0c"
         }
       }
     },
@@ -884,6 +1008,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
           "sha256": "b24b630829ad1a1c0d964ee4eef2757f5826aadc63dc609c403bb88b91893303"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "b24b630829ad1a1c0d964ee4eef2757f5826aadc63dc609c403bb88b91893303"
         }
       }
     },
@@ -896,6 +1024,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
+          "sha256": "de5c475d3a38896d2617767cc605aaf01385785980c25c0490cf3b59c4dfeb68"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "de5c475d3a38896d2617767cc605aaf01385785980c25c0490cf3b59c4dfeb68"
         }
       }
@@ -962,6 +1094,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
           "sha256": "6b49a0655a5810928219a2b8415ee8badcfa4af4e6e2763aa235ce47c5f72a13"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "6b49a0655a5810928219a2b8415ee8badcfa4af4e6e2763aa235ce47c5f72a13"
         }
       }
     },
@@ -974,6 +1110,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
+          "sha256": "2d1956e52d88bd88c166dfa54f5e0e353fc4478c6cb6cf08431261a2337efc4d"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "2d1956e52d88bd88c166dfa54f5e0e353fc4478c6cb6cf08431261a2337efc4d"
         }
       }
@@ -988,6 +1128,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
           "sha256": "c1be1ca373adebd879408280e8987069e3d07fd0b93f41b4600c5b6df95b85dd"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "c1be1ca373adebd879408280e8987069e3d07fd0b93f41b4600c5b6df95b85dd"
         }
       }
     },
@@ -1000,6 +1144,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
+          "sha256": "2461c0a678c2cc66d8ac27170e0c6334cf431f9ade43e775cc5f9c56c0c4f3c6"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "2461c0a678c2cc66d8ac27170e0c6334cf431f9ade43e775cc5f9c56c0c4f3c6"
         }
       }
@@ -1027,6 +1175,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
           "sha256": "74147eb6010a65957efef2b9e0f0b3ff935c1def7fc117697151b1d0f3610556"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "74147eb6010a65957efef2b9e0f0b3ff935c1def7fc117697151b1d0f3610556"
         }
       }
     },
@@ -1039,6 +1191,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
+          "sha256": "3e35025119ba03efe7983dfdec3c8b96918142e3978512f3c2bf66d428310c7e"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "3e35025119ba03efe7983dfdec3c8b96918142e3978512f3c2bf66d428310c7e"
         }
       }
@@ -1066,6 +1222,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
           "sha256": "d215dd8f2a19bf85fdaf67a3cdb5077641f6b4108f229ba79579414793d7b0a3"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "d215dd8f2a19bf85fdaf67a3cdb5077641f6b4108f229ba79579414793d7b0a3"
         }
       }
     },
@@ -1091,6 +1251,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
+          "sha256": "1618b38636473ae14011af272029241c99d8baaaff2f0d16b979e1bb2e30208d"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "1618b38636473ae14011af272029241c99d8baaaff2f0d16b979e1bb2e30208d"
         }
       }
@@ -1144,6 +1308,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
           "sha256": "a8349043740a8805d4ebfeb3a21f67ec0e9a9733a84f96403ca142c88a312b5d"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "a8349043740a8805d4ebfeb3a21f67ec0e9a9733a84f96403ca142c88a312b5d"
         }
       }
     },
@@ -1195,6 +1363,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
+          "sha256": "03cba418b10c64a316124fd9c0cde640bfe87da86f30df8136b8498003eafed8"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "03cba418b10c64a316124fd9c0cde640bfe87da86f30df8136b8498003eafed8"
         }
       }
@@ -1391,6 +1563,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
           "sha256": "b3f669a8a14611c48f512f751eb0873f958b8bee3d944760fb8aaf269a2c4f55"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "b3f669a8a14611c48f512f751eb0873f958b8bee3d944760fb8aaf269a2c4f55"
         }
       }
     },
@@ -1404,6 +1580,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
           "sha256": "95d20a6dfe466167197261989456aea47734670538b9173787c037480032a3b1"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "95d20a6dfe466167197261989456aea47734670538b9173787c037480032a3b1"
         }
       }
     },
@@ -1416,6 +1596,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
+          "sha256": "016198b563b8f8c4441b002bce8ad0e0865f2f39f1da22476beb7a7daed482aa"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "016198b563b8f8c4441b002bce8ad0e0865f2f39f1da22476beb7a7daed482aa"
         }
       }
@@ -1508,6 +1692,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
           "sha256": "798ad178ead72ad3056f5301e83b447fce3407de07d5ff8b0209b134b4eae866"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "798ad178ead72ad3056f5301e83b447fce3407de07d5ff8b0209b134b4eae866"
         }
       }
     },
@@ -1560,6 +1748,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
           "sha256": "5d3091690cf52058e6c87ccfe10688bfa44cb129db8a567a7be59a88035a128e"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "5d3091690cf52058e6c87ccfe10688bfa44cb129db8a567a7be59a88035a128e"
         }
       }
     },
@@ -1585,6 +1777,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
+          "sha256": "a653deb65afa2ee8f45c68f6ef4f593147171b386e994c8cccf89292d9ea9d75"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "a653deb65afa2ee8f45c68f6ef4f593147171b386e994c8cccf89292d9ea9d75"
         }
       }
@@ -1637,6 +1833,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
+          "sha256": "a37ae04745b04b8e9bbd8de37cdcbc2b2187ccafb68418e436a46ebb1e491ee5"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "a37ae04745b04b8e9bbd8de37cdcbc2b2187ccafb68418e436a46ebb1e491ee5"
         }
       }
@@ -1911,6 +2111,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
           "sha256": "f81a38a7ffb9f633b70a69ff7c19515e9e820409a47bec8a5b560a9b57ff8a40"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "f81a38a7ffb9f633b70a69ff7c19515e9e820409a47bec8a5b560a9b57ff8a40"
         }
       }
     },
@@ -2015,6 +2219,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
           "sha256": "af059705061156fd4845ddbb736fe92b564118ac5f03551e09ef9e8f6d970638"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "af059705061156fd4845ddbb736fe92b564118ac5f03551e09ef9e8f6d970638"
         }
       }
     },
@@ -2027,6 +2235,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.137050+00:00",
+          "sha256": "2dd9ae582cd6234f7e7e86924ea4a48cc13d3efe61c12a91f81def289b941371"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "2dd9ae582cd6234f7e7e86924ea4a48cc13d3efe61c12a91f81def289b941371"
         }
       }
@@ -2041,6 +2253,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.137050+00:00",
           "sha256": "0e6a2973fa5bdf32570227c578f7e474d945dd9281615d31439664c3ef016fce"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "0e6a2973fa5bdf32570227c578f7e474d945dd9281615d31439664c3ef016fce"
         }
       }
     },
@@ -2054,6 +2270,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.137050+00:00",
           "sha256": "b60e3805e361e4eabc6f3df48d305299e0fde64cb24b6e95443c01de907a2e7d"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "b60e3805e361e4eabc6f3df48d305299e0fde64cb24b6e95443c01de907a2e7d"
         }
       }
     },
@@ -2066,6 +2286,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.137050+00:00",
+          "sha256": "b819f0285e4e5814ac6472d0217f07dc9f23d2fdae3ebb0dd31d98360d8ac029"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "b819f0285e4e5814ac6472d0217f07dc9f23d2fdae3ebb0dd31d98360d8ac029"
         }
       }
@@ -2092,6 +2316,10 @@
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.137050+00:00",
+          "sha256": "2264267957a18425e60c243df0a31d851d165479e04be7a872a644179d909230"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "2264267957a18425e60c243df0a31d851d165479e04be7a872a644179d909230"
         }
       }
@@ -2132,6 +2360,10 @@
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.137050+00:00",
           "sha256": "2a6894c7f9b1c9c55f451c625a834c4f377e217b623a85280e55db5fe9cacf48"
+        },
+        "termux-android": {
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
+          "sha256": "2a6894c7f9b1c9c55f451c625a834c4f377e217b623a85280e55db5fe9cacf48"
         }
       }
     },
@@ -2143,7 +2375,7 @@
       "last_modified": "2026-06-13T20:31:33.210415+00:00",
       "synced_machines": {
         "termux-android": {
-          "last_synced": "2026-06-13T20:31:33.210420+00:00",
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "a0768ddf7685e2a3a4a69e4008bb42d812773c3efa3bcc1e0c7c073bacbdfda6"
         }
       }
@@ -2156,7 +2388,7 @@
       "last_modified": "2026-06-13T20:31:33.210580+00:00",
       "synced_machines": {
         "termux-android": {
-          "last_synced": "2026-06-13T20:31:33.210583+00:00",
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "7cabb8bcc00797373ada06b51fcf7b504f51d79b8816829847635bbb03bb5d9c"
         }
       }
@@ -2169,7 +2401,7 @@
       "last_modified": "2026-06-13T20:31:33.210694+00:00",
       "synced_machines": {
         "termux-android": {
-          "last_synced": "2026-06-13T20:31:33.210695+00:00",
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "ab72192b7aee4e6d5db617a286ef2733911eb4f38313f67e1d0fe9cdba69fb3e"
         }
       }
@@ -2182,7 +2414,7 @@
       "last_modified": "2026-06-13T20:31:33.210806+00:00",
       "synced_machines": {
         "termux-android": {
-          "last_synced": "2026-06-13T20:31:33.210807+00:00",
+          "last_synced": "2026-06-13T20:32:35.451367+00:00",
           "sha256": "86440d99e8ec3bd7f0a92640d62bf307915ec2a7154e45dd55a214d58ee6966d"
         }
       }
