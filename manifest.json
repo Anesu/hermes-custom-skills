@@ -2134,6 +2134,58 @@
           "sha256": "2a6894c7f9b1c9c55f451c625a834c4f377e217b623a85280e55db5fe9cacf48"
         }
       }
+    },
+    "creative-ideation": {
+      "category": "creative/creative-ideation",
+      "skill_version": "1.0.0",
+      "sha256": "a0768ddf7685e2a3a4a69e4008bb42d812773c3efa3bcc1e0c7c073bacbdfda6",
+      "size_bytes": 6318,
+      "last_modified": "2026-06-13T20:31:33.210415+00:00",
+      "synced_machines": {
+        "termux-android": {
+          "last_synced": "2026-06-13T20:31:33.210420+00:00",
+          "sha256": "a0768ddf7685e2a3a4a69e4008bb42d812773c3efa3bcc1e0c7c073bacbdfda6"
+        }
+      }
+    },
+    "evaluation": {
+      "category": "mlops/evaluation",
+      "skill_version": "1.0.0",
+      "sha256": "7cabb8bcc00797373ada06b51fcf7b504f51d79b8816829847635bbb03bb5d9c",
+      "size_bytes": 12395,
+      "last_modified": "2026-06-13T20:31:33.210580+00:00",
+      "synced_machines": {
+        "termux-android": {
+          "last_synced": "2026-06-13T20:31:33.210583+00:00",
+          "sha256": "7cabb8bcc00797373ada06b51fcf7b504f51d79b8816829847635bbb03bb5d9c"
+        }
+      }
+    },
+    "inference": {
+      "category": "mlops/inference",
+      "skill_version": "1.0.0",
+      "sha256": "ab72192b7aee4e6d5db617a286ef2733911eb4f38313f67e1d0fe9cdba69fb3e",
+      "size_bytes": 9071,
+      "last_modified": "2026-06-13T20:31:33.210694+00:00",
+      "synced_machines": {
+        "termux-android": {
+          "last_synced": "2026-06-13T20:31:33.210695+00:00",
+          "sha256": "ab72192b7aee4e6d5db617a286ef2733911eb4f38313f67e1d0fe9cdba69fb3e"
+        }
+      }
+    },
+    "models": {
+      "category": "mlops/models",
+      "skill_version": "1.0.0",
+      "sha256": "86440d99e8ec3bd7f0a92640d62bf307915ec2a7154e45dd55a214d58ee6966d",
+      "size_bytes": 13372,
+      "last_modified": "2026-06-13T20:31:33.210806+00:00",
+      "synced_machines": {
+        "termux-android": {
+          "last_synced": "2026-06-13T20:31:33.210807+00:00",
+          "sha256": "86440d99e8ec3bd7f0a92640d62bf307915ec2a7154e45dd55a214d58ee6966d"
+        }
+      }
     }
   }
 }
