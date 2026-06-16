@@ -1791,17 +1791,17 @@
     "actor-reading": {
       "category": "note-taking/actor-reading",
       "skill_version": "0.0.0",
-      "sha256": "76fea1d0c7b0e22a128d369f5f99723c33c1a7eccfaec8aa7361c0f1210bb968",
-      "size_bytes": 4542,
-      "last_modified": "2026-06-13T20:34:08.638665+00:00",
+      "sha256": "62f4d99005df8d67e61a4d867b30e415bfd37f8b686ab06fac75780fc6ae25bd",
+      "size_bytes": 4775,
+      "last_modified": "2026-06-16T05:09:16.519528+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
           "sha256": "56c316054651dac13671e2853614ed30f920b90fc69c84db59fbeccd45a1b62d"
         },
         "termux-android": {
-          "last_synced": "2026-06-13T20:33:42.277341+00:00",
-          "sha256": "76fea1d0c7b0e22a128d369f5f99723c33c1a7eccfaec8aa7361c0f1210bb968"
+          "last_synced": "2026-06-16T05:09:16.519533+00:00",
+          "sha256": "62f4d99005df8d67e61a4d867b30e415bfd37f8b686ab06fac75780fc6ae25bd"
         }
       }
     },
@@ -2012,17 +2012,17 @@
     "skill-sync": {
       "category": "productivity/skill-sync",
       "skill_version": "0.0.0",
-      "sha256": "5c9a2762e61e52b40f6f9e59a07bb809f4ca870464eb3144339fd514e446bd04",
-      "size_bytes": 6067,
-      "last_modified": "2026-06-13T20:34:08.638665+00:00",
+      "sha256": "6ccf6fb0f2b3285cb5eddc9e093e98095f6b4a47387efbf9537357e8b16b81fc",
+      "size_bytes": 7706,
+      "last_modified": "2026-06-16T05:09:16.520389+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
           "sha256": "a2d4ded251036d830d34eb24350c65a26d9e1aa34235311a3f420af13a040600"
         },
         "termux-android": {
-          "last_synced": "2026-06-13T20:33:42.277341+00:00",
-          "sha256": "5c9a2762e61e52b40f6f9e59a07bb809f4ca870464eb3144339fd514e446bd04"
+          "last_synced": "2026-06-16T05:09:16.520392+00:00",
+          "sha256": "6ccf6fb0f2b3285cb5eddc9e093e98095f6b4a47387efbf9537357e8b16b81fc"
         }
       }
     },
@@ -2743,17 +2743,17 @@
     "write-a-skill": {
       "category": "write-a-skill",
       "skill_version": "0.0.0",
-      "sha256": "965639355c76f160760f1479001eab392b60ffad2faf8b4a515a803e8de57aaa",
-      "size_bytes": 5655,
-      "last_modified": "2026-06-13T20:34:08.638665+00:00",
+      "sha256": "a47e5478aa9b0e3341466a000bb21df4ba9abd85675c1bc6aeba703497f6dc05",
+      "size_bytes": 7659,
+      "last_modified": "2026-06-16T05:09:16.521007+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.137050+00:00",
           "sha256": "d6184c9670094947bbb96cb8207499cd7f918f34b80de10377c63fbbf3f4a70d"
         },
         "termux-android": {
-          "last_synced": "2026-06-13T20:33:42.277341+00:00",
-          "sha256": "965639355c76f160760f1479001eab392b60ffad2faf8b4a515a803e8de57aaa"
+          "last_synced": "2026-06-16T05:09:16.521010+00:00",
+          "sha256": "a47e5478aa9b0e3341466a000bb21df4ba9abd85675c1bc6aeba703497f6dc05"
         }
       }
     },
@@ -2840,6 +2840,84 @@
         "termux-android": {
           "last_synced": "2026-06-13T20:33:42.277341+00:00",
           "sha256": "86440d99e8ec3bd7f0a92640d62bf307915ec2a7154e45dd55a214d58ee6966d"
+        }
+      }
+    },
+    "aar": {
+      "category": "aar",
+      "skill_version": "1.0.0",
+      "sha256": "04855cda135a4e0880e761bbc2ec198d2c5beee3aa4c8fc4e188db4bd03e3900",
+      "size_bytes": 4639,
+      "last_modified": "2026-06-16T05:09:16.518763+00:00",
+      "synced_machines": {
+        "termux-android": {
+          "last_synced": "2026-06-16T05:09:16.518773+00:00",
+          "sha256": "04855cda135a4e0880e761bbc2ec198d2c5beee3aa4c8fc4e188db4bd03e3900"
+        }
+      }
+    },
+    "audit": {
+      "category": "audit",
+      "skill_version": "1.0.0",
+      "sha256": "cd2048b243e6fb307dc3b31dbdd7f07f8e93caad509a6f0962b610d66717809a",
+      "size_bytes": 3734,
+      "last_modified": "2026-06-16T05:09:16.519673+00:00",
+      "synced_machines": {
+        "termux-android": {
+          "last_synced": "2026-06-16T05:09:16.519676+00:00",
+          "sha256": "cd2048b243e6fb307dc3b31dbdd7f07f8e93caad509a6f0962b610d66717809a"
+        }
+      }
+    },
+    "berean": {
+      "category": "berean",
+      "skill_version": "1.0.0",
+      "sha256": "bb0b957cf1e4c9c2b746582c071cadf2742f5c8970f3a27140d88fc0cd0b453c",
+      "size_bytes": 7462,
+      "last_modified": "2026-06-16T05:09:16.519793+00:00",
+      "synced_machines": {
+        "termux-android": {
+          "last_synced": "2026-06-16T05:09:16.519795+00:00",
+          "sha256": "bb0b957cf1e4c9c2b746582c071cadf2742f5c8970f3a27140d88fc0cd0b453c"
+        }
+      }
+    },
+    "scribe": {
+      "category": "scribe",
+      "skill_version": "1.0.0",
+      "sha256": "552a19039f5a51896164d53db692efea9a1dda2483fee89a15fead77c3eb9586",
+      "size_bytes": 7366,
+      "last_modified": "2026-06-16T05:09:16.519927+00:00",
+      "synced_machines": {
+        "termux-android": {
+          "last_synced": "2026-06-16T05:09:16.519930+00:00",
+          "sha256": "552a19039f5a51896164d53db692efea9a1dda2483fee89a15fead77c3eb9586"
+        }
+      }
+    },
+    "vidnote": {
+      "category": "vidnote",
+      "skill_version": "1.0.0",
+      "sha256": "45685be8ef785725f7577f61fe633904c8e29ec1c768ad01aec86342c367a734",
+      "size_bytes": 5012,
+      "last_modified": "2026-06-16T05:09:16.520500+00:00",
+      "synced_machines": {
+        "termux-android": {
+          "last_synced": "2026-06-16T05:09:16.520502+00:00",
+          "sha256": "45685be8ef785725f7577f61fe633904c8e29ec1c768ad01aec86342c367a734"
+        }
+      }
+    },
+    "watch": {
+      "category": "watch",
+      "skill_version": "1.0.0",
+      "sha256": "51584269a564ad2fd41dfbda489b054ad27610fc85c080d8f63a3fd68388d476",
+      "size_bytes": 5923,
+      "last_modified": "2026-06-16T05:09:16.520605+00:00",
+      "synced_machines": {
+        "termux-android": {
+          "last_synced": "2026-06-16T05:09:16.520607+00:00",
+          "sha256": "51584269a564ad2fd41dfbda489b054ad27610fc85c080d8f63a3fd68388d476"
         }
       }
     }

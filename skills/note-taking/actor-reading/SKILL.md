@@ -56,3 +56,4 @@ Write/update one note per book in the vault (load the `obsidian` skill for vault
 - In Test, the goal is steelmanning + self-discovery, not winning. One genuine "ouch" beats five easy critiques.
 - In Run, resist multiple actions. One artifact, scheduled, reviewable. Offer a cron reminder for the experiment's review date if appropriate.
 - Mid-book check-ins are valid: A and C can run on partial reads; T/O/R need the finish.
+- ACTOR governs *turning a book into action*; the `metacognition-radar` skill governs *the cognitive state while reading*. Run the radar **inside** Compress and Own passes to keep retrieval active rather than passive — they stack.

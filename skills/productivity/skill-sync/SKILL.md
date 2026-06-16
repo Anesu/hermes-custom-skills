@@ -119,34 +119,33 @@ Options:
 
 ### Environment
 
-Set `HERMES_SYNC_MACHINE` to identify this machine in the manifest:
+Set `HERMES_SYNC_MACHINE` to identify this machine in the manifest. Persist it in `~/.bashrc`:
 
 ```bash
-export HERMES_SYNC_MACHINE="windows-desktop"  # or "macbook", "linux-server", etc.
+export HERMES_SYNC_MACHINE="windows-desktop"  # or "macbook", "termux-android", "linux-server", etc.
+echo 'export HERMES_SYNC_MACHINE="windows-desktop"' >> ~/.bashrc
 ```
 
 ### First Run
 
+The sync script lives at `scripts/sync.py` within the skill directory.
+
 ```bash
-cd ~/.hermes/skills/productivity/skill-sync
-python scripts/sync.py status
+python ~/.hermes/skills/skill-sync/scripts/sync.py status
 ```
 
 The script auto-clones the repo on first run. If the repo already exists (cloned during setup), it runs `git pull` to fetch latest.
 
-## Script Location
+### Script Location
 
-The sync logic lives at:
 ```
-~/.hermes/skills/productivity/skill-sync/scripts/sync.py
+~/.hermes/skills/skill-sync/scripts/sync.py
 ```
 
 Run it directly:
 ```bash
-python ~/.hermes/skills/productivity/skill-sync/scripts/sync.py <command>
+python ~/.hermes/skills/skill-sync/scripts/sync.py <command>
 ```
-
-Or have the Hermes agent load this skill and execute the script as part of the workflow.
 
 ## Pitfalls
 
@@ -175,3 +174,29 @@ Ensure `gh auth status` shows a token with `repo` scope. If pushing fails with 4
 ```bash
 gh auth login --scopes repo
 ```
+
+### First Pull on a New Machine
+After the first `pull` on a machine that was never registered, all skills will show as **⚠️ DIVERGED** because the manifest has no sync records for this machine. This is expected — the files are actually identical. To fix:
+
+1. After pull, verify files match: compare a few SHAs between local and `repo/skills/<category>/SKILL.md`
+2. If files match, register this machine by updating `synced_machines` in manifest for every skill
+3. **Also update the top-level `sha256`** for each skill — it may be stale from another machine's last push
+4. Commit and push the manifest fix
+
+Both the per-machine sync record AND the top-level SHA must be updated for a clean `status`. See `references/manifest-fixup.md` for the full fixup script.
+
+### File Copies: Use Terminal, Not execute_code
+The `execute_code` sandbox may not persist file writes (`shutil.copy2`, `write_file`) to the real filesystem. **Always use `terminal` with a Python heredoc** for bulk file copies between the repo clone and `~/.hermes/skills/`. Example:
+
+```bash
+python3 << 'PYEOF'
+import json, hashlib, shutil
+from pathlib import Path
+# ... copy and verify loop ...
+PYEOF
+```
+
+Verify copies by computing SHA256 on both source and destination after copying.
+
+### Manifest SHA Drift
+The top-level `sha256` in `manifest.json` reflects the file content at the time of the LAST push — which may have been from a different machine. After pulling, if local files match the repo files but `status` shows "changed remote", the manifest's top-level SHAs are stale. Recompute them from the actual repo files and update.

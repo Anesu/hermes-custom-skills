@@ -105,6 +105,26 @@ Split into separate files when:
 - Content has distinct domains (finance vs sales schemas)
 - Advanced features are rarely needed
 
+## Token Efficiency (mandatory target)
+
+User preference: skills must be token-dense — no filler, no redundancy, no essay sections. Target ≤8 KB for even complex skills. Techniques proven across multiple skill rewrites:
+
+| Technique | Example | Reduction |
+|---|---|---|
+| **Quick Reference format** | Pipeline stages → single bash block with numbered comments | Collapses 7 verbose stage sections into 1 block |
+| **Adaptive templates** | 6 near-identical curator templates → 1 universal rules list + routing table showing only type-specific differences | 66 rule statements → 6 universal + 6×3 cell table |
+| **Problem/Fix tables** | 10 verbose Pitfall subsections → `\| Problem \| Fix \|` table | ~1,200 chars → ~400 |
+| **Core Concepts tables** | 5 exposition paragraphs explaining theory → `\| Concept \| Rule \|` table | ~2,000 chars → ~600 |
+| **Merge overlapping lists** | "Rationalizations" table (11 rows) + "Red Flags" list (12 items) with 90% semantic overlap → one 7-row table | ~2,400 chars → ~800 |
+| **Cut filler sections** | "Why Order Matters" (5 straw-man rebuttals), "Hermes Agent Integration" (agents know their own tools), "See Also" (use `skills_list`), "Real-World Impact" (marketing) | Zero information loss — all cut content is either redundant or tool-trivial |
+
+**Structure rules for new skills:**
+1. Frontmatter → 2-line intro → Quick Reference (the pipeline) → reference tables → pitfalls table → verification checklist. That order.
+2. If a skill has >2 near-identical variants (templates, paths, modes), use ONE canonical version + a routing/difference table. Never repeat full blocks.
+3. Every paragraph must survive the test: "Does this tell the agent something the table/Quick Reference didn't already convey?"
+4. Prefer tables over prose. Prefer bullets over paragraphs. Prefer one code block over many.
+5. The "SKILL.md under 100 lines" rule is secondary to token density. A 145-line skill at 5.9 KB beats a 100-line skill at 15 KB.
+
 ## Designing for Effectiveness (protocol over prose)
 
 A skill is effective in proportion to how little it leaves to the executing agent's discretion. Philosophy/doctrine sections set direction, but only protocol produces repeatability. When writing or improving a skill that governs recurring stateful work:
