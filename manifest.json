@@ -2012,17 +2012,17 @@
     "skill-sync": {
       "category": "productivity/skill-sync",
       "skill_version": "0.0.0",
-      "sha256": "6ccf6fb0f2b3285cb5eddc9e093e98095f6b4a47387efbf9537357e8b16b81fc",
-      "size_bytes": 7706,
-      "last_modified": "2026-06-16T05:09:16.520389+00:00",
+      "sha256": "07fa42fc0cfe2c36c51bb9c8c06837e1575bbab22ca0105ab4c5cdb22cf0d6ac",
+      "size_bytes": 2709,
+      "last_modified": "2026-06-16T05:37:22.786804+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
           "sha256": "a2d4ded251036d830d34eb24350c65a26d9e1aa34235311a3f420af13a040600"
         },
         "termux-android": {
-          "last_synced": "2026-06-16T05:09:16.520392+00:00",
-          "sha256": "6ccf6fb0f2b3285cb5eddc9e093e98095f6b4a47387efbf9537357e8b16b81fc"
+          "last_synced": "2026-06-16T05:37:22.786816+00:00",
+          "sha256": "07fa42fc0cfe2c36c51bb9c8c06837e1575bbab22ca0105ab4c5cdb22cf0d6ac"
         }
       }
     },
