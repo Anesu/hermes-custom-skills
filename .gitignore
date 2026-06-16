@@ -13,3 +13,13 @@ desktop.ini
 # Python
 __pycache__/
 *.pyc
+*.pyo
+
+# Testing
+.pytest_cache/
+
+# Hermes state files (machine-specific, not for sync)
+.curator_state
+.usage.json
+.bundled_manifest
+.termux_bundled_sync_stamp
