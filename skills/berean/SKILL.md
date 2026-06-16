@@ -23,12 +23,12 @@ Study any passage using Observation → Interpretation → Application. Genre-se
 - Working through a book chapter-by-chapter
 - Preparing a sermon, Bible study, or small group discussion
 - Cross-referencing a topic across Scripture
-- Any time the Berean check (meta-cognition Mode 3) is active and the material IS Scripture
+- Any time the Berean check (radar Mode 3) is active and the material IS Scripture
 
 ## Prerequisites
 
 - Obsidian vault with Bible notes (`skill_view('note-taking/obsidian')`)
-- meta-cognition skill loaded if using Berean check during study
+- `radar` skill loaded if using Berean check during study
 
 ## Quick Reference
 
@@ -146,7 +146,7 @@ cross-refs: [{linked-note-refs}]
 
 ## Integration with Meta-Cognition
 
-When `meta-cognition` Mode 3 (Berean check) is active during study:
+When `radar` Mode 3 (Berean check) is active during study:
 - The text IS the authority testing everything else — not the reverse
 - Every interpretation must be accountable to the text
 - Flag when your own preferences or cultural assumptions are driving the reading

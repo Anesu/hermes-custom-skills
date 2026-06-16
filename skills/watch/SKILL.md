@@ -6,12 +6,12 @@ category: media
 metadata:
   hermes:
     tags: [youtube, video, vision, ffmpeg, scene-detection, frames, transcript, obsidian, knowledge-base]
-  related_skills: [yt-transcribe, obsidian]
+  related_skills: [scribe, obsidian]
 ---
 
 # watch-video — Visual + Transcript Video Intelligence
 
-Extract key frames via FFmpeg scene-change detection, pair with transcript, run vision analysis, produce fused report. **Not** for transcript-only curation — use `yt-transcribe` for that.
+Extract key frames via FFmpeg scene-change detection, pair with transcript, run vision analysis, produce fused report. **Not** for transcript-only curation — use `scribe` for that.
 
 **Why scene detection over fixed-interval sampling:** 100 frames evenly spaced = 1 frame every 6 minutes on a 10hr video (blind). Scene detection captures a frame only when visual content *actually changes* — slides advancing, demos, motion graphics. Frame count adapts to content density, not video length.
 
@@ -22,7 +22,7 @@ Real timestamps via ffmpeg `showinfo` filter placed after `select` in the chain.
 ```bash
 pkg install ffmpeg yt-dlp python           # core
 pip install youtube-transcript-api          # fast transcript path (captioned videos)
-# OR: whisper.cpp — see yt-transcribe skill  # any video, CPU/mobile
+# OR: whisper.cpp — see `scribe` skill  # any video, CPU/mobile
 # Vision analysis: requires vision-capable model (provider-dependent)
 ```
 
@@ -34,11 +34,11 @@ yt-dlp -f "best[height<=720][ext=mp4]/best[height<=720]/best" -o "watch_video.mp
 yt-dlp --print "%(title)s -- %(uploader)s -- %(duration)s" "URL"  # metadata
 
 # 2. DRY-RUN (tune threshold before extracting)
-python3 ~/.hermes/skills/watch-video/scripts/extract_frames.py watch_video.mp4 /tmp/dry/ \
+python3 ~/.hermes/skills/watch/scripts/extract_frames.py watch_video.mp4 /tmp/dry/ \
   --dry-run --threshold 0.3
 
 # 3. EXTRACT FRAMES
-python3 ~/.hermes/skills/watch-video/scripts/extract_frames.py watch_video.mp4 watch_frames/ \
+python3 ~/.hermes/skills/watch/scripts/extract_frames.py watch_video.mp4 watch_frames/ \
   --threshold 0.3 --output-json frames.json
 
 # 4. TRANSCRIBE
@@ -116,7 +116,7 @@ rm watch_video.mp4
 
 | Task | Delegates To |
 |---|---|
-| Audio pipeline | `yt-transcribe` (dual-path whisper CPU/GPU) |
+| Audio pipeline | `scribe` (dual-path whisper CPU/GPU) |
 | KB save | `obsidian` (vault read/write/wikilinks) |
 | Vision analysis | `vision_analyze` tool |
 | Curation | This skill (fused visual+audio output) |

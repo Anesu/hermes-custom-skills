@@ -16,13 +16,13 @@ Audit any SKILL.md for bloat and quality. Scores 0-100 (lower = leaner). Detects
 
 ```bash
 # Audit a single skill
-python3 ~/.hermes/skills/skill-health-checker/scripts/audit_skill.py watch-video
+python3 ~/.hermes/skills/audit/scripts/audit_skill.py watch
 
 # Audit all skills, show top 10 worst offenders
-python3 ~/.hermes/skills/skill-health-checker/scripts/audit_skill.py --all --top 10
+python3 ~/.hermes/skills/audit/scripts/audit_skill.py --all --top 10
 
 # JSON output for programmatic use
-python3 ~/.hermes/skills/skill-health-checker/scripts/audit_skill.py yt-transcribe --json
+python3 ~/.hermes/skills/audit/scripts/audit_skill.py scribe --json
 ```
 
 ## Metrics
@@ -51,10 +51,10 @@ python3 ~/.hermes/skills/skill-health-checker/scripts/audit_skill.py yt-transcri
 
 ```
 BLOAT  GRADE     SIZE    SIZE_GRADE  RATIO  CHECKS  ANTI  SKILL
-  85  critical   25847B  critical    0.31   4/5     [repeated_templates, ...]  yt-transcribe (pre-streamline)
-  12  lean        7379B  good        0.85   4/5     [none]                     yt-transcribe (post-streamline)
-  16  lean        5936B  good        1.10   5/5     [none]                     watch-video
-  37  moderate    4507B  good        0.39   1/5     [red_flags]                test-driven-development
+  85  critical   25847B  critical    0.31   4/5     [repeated_templates, ...]  scribe (pre-streamline)
+  12  lean        7379B  good        0.85   4/5     [none]                     scribe (post-streamline)
+  16  lean        5936B  good        1.10   5/5     [none]                     watch
+  37  moderate    4507B  good        0.39   1/5     [red_flags]                tdd
 ```
 
 **Calibration note:** Scores were calibrated against a 5-skill streamlining pass (June 2026) that reduced 74KB → 27KB (63%) with zero content loss. A score of 12–40 with "good" size grade is a healthy, production-quality skill. Scores >50 with "bloated/critical" size grade warrant attention. See `references/streamlining-patterns.md` for the techniques used.

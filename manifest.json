@@ -2267,17 +2267,17 @@
     "debugging-hermes-tui-commands": {
       "category": "software-development/debugging-hermes-tui-commands",
       "skill_version": "1.0.0",
-      "sha256": "55d5811c0b2d872dc59d87432720a113150dbbce2872524a36b3860a8967095d",
-      "size_bytes": 7910,
-      "last_modified": "2026-06-13T20:34:08.638665+00:00",
+      "sha256": "2b659892972275df53dcda5db370704be04842c751c04f8845e5ab8b616ea0cf",
+      "size_bytes": 7895,
+      "last_modified": "2026-06-16T05:10:34.292764+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.135546+00:00",
           "sha256": "c2e3cb5131ecb40bb1ff51613f438aa2bb913b4600dda003025eebb3979df4c5"
         },
         "termux-android": {
-          "last_synced": "2026-06-13T20:33:42.277341+00:00",
-          "sha256": "55d5811c0b2d872dc59d87432720a113150dbbce2872524a36b3860a8967095d"
+          "last_synced": "2026-06-16T05:10:34.292766+00:00",
+          "sha256": "2b659892972275df53dcda5db370704be04842c751c04f8845e5ab8b616ea0cf"
         }
       }
     },
@@ -2403,51 +2403,51 @@
     "node-inspect-debugger": {
       "category": "software-development/node-inspect-debugger",
       "skill_version": "1.0.0",
-      "sha256": "f2f72c0c9e67143effc8cb9871a242309813af72c61b8d62548ae275c86f2d08",
-      "size_bytes": 10929,
-      "last_modified": "2026-06-13T20:34:08.638665+00:00",
+      "sha256": "c78462f1b6e1bcb365fc1077e73272fa038d77772a3a3d95b3823237761ab258",
+      "size_bytes": 10914,
+      "last_modified": "2026-06-16T05:10:34.292870+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
           "sha256": "24bcedf106b95d4e425090bb6fcca15cd27783720608e001e671791d0d23d3ed"
         },
         "termux-android": {
-          "last_synced": "2026-06-13T20:33:42.277341+00:00",
-          "sha256": "f2f72c0c9e67143effc8cb9871a242309813af72c61b8d62548ae275c86f2d08"
+          "last_synced": "2026-06-16T05:10:34.292873+00:00",
+          "sha256": "c78462f1b6e1bcb365fc1077e73272fa038d77772a3a3d95b3823237761ab258"
         }
       }
     },
     "plan": {
       "category": "software-development/plan",
       "skill_version": "2.0.0",
-      "sha256": "41c12b7ed41706efb18886d34f0fc89439609a87342293ef005becbacdd8d9b4",
-      "size_bytes": 9442,
-      "last_modified": "2026-06-13T20:34:08.638665+00:00",
+      "sha256": "56214451c341702d60a0037a08a82db431e96ddda8e0a22ec706ca37b7c573ef",
+      "size_bytes": 9422,
+      "last_modified": "2026-06-16T05:10:34.292957+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
           "sha256": "ee28848e562dbfb53a0cac5cf7564e0e600da8472093718bcf0ffb6cba6b8b16"
         },
         "termux-android": {
-          "last_synced": "2026-06-13T20:33:42.277341+00:00",
-          "sha256": "41c12b7ed41706efb18886d34f0fc89439609a87342293ef005becbacdd8d9b4"
+          "last_synced": "2026-06-16T05:10:34.292959+00:00",
+          "sha256": "56214451c341702d60a0037a08a82db431e96ddda8e0a22ec706ca37b7c573ef"
         }
       }
     },
     "python-debugpy": {
       "category": "software-development/python-debugpy",
       "skill_version": "1.0.0",
-      "sha256": "ce7e38367ea54fb86e32d41be2fb3682482b7e3d748316cb666b3d4e3ca51a40",
-      "size_bytes": 13172,
-      "last_modified": "2026-06-13T20:34:08.638665+00:00",
+      "sha256": "b8988d5eb9aeb83c13c7c6e23a0f937f36189937883e3640d70c38a985a19a5d",
+      "size_bytes": 13157,
+      "last_modified": "2026-06-16T05:10:34.293051+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
           "sha256": "6edfa04793d4fef99a0eaa7f1a9c99ac12d6d240d90406b41d4823a60cc4a176"
         },
         "termux-android": {
-          "last_synced": "2026-06-13T20:33:42.277341+00:00",
-          "sha256": "ce7e38367ea54fb86e32d41be2fb3682482b7e3d748316cb666b3d4e3ca51a40"
+          "last_synced": "2026-06-16T05:10:34.293053+00:00",
+          "sha256": "b8988d5eb9aeb83c13c7c6e23a0f937f36189937883e3640d70c38a985a19a5d"
         }
       }
     },
@@ -2522,17 +2522,17 @@
     "subagent-driven-development": {
       "category": "software-development/subagent-driven-development",
       "skill_version": "1.1.0",
-      "sha256": "3fe606f9b2f5127905e06812bbff2b8708a5b0e66a8330207ce3546792b33102",
-      "size_bytes": 10742,
-      "last_modified": "2026-06-13T20:34:08.638665+00:00",
+      "sha256": "fd5903a78c6c56606f65f2126f110daa0a7824add6ab3ae6305e8d64e2003dd8",
+      "size_bytes": 10722,
+      "last_modified": "2026-06-16T05:10:34.293145+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
           "sha256": "d9dac2bd83aa675b9277c5d5c3da68aa30c54c6311d82a0370ff6380cf912dd3"
         },
         "termux-android": {
-          "last_synced": "2026-06-13T20:33:42.277341+00:00",
-          "sha256": "3fe606f9b2f5127905e06812bbff2b8708a5b0e66a8330207ce3546792b33102"
+          "last_synced": "2026-06-16T05:10:34.293147+00:00",
+          "sha256": "fd5903a78c6c56606f65f2126f110daa0a7824add6ab3ae6305e8d64e2003dd8"
         }
       }
     },
@@ -2590,17 +2590,17 @@
     "writing-plans": {
       "category": "software-development/writing-plans",
       "skill_version": "1.1.0",
-      "sha256": "b930d5746acc1b0c092ab8522df559723dcfd1dfcb5323a7da85c7c2dd872d0d",
-      "size_bytes": 7229,
-      "last_modified": "2026-06-13T20:34:08.638665+00:00",
+      "sha256": "8f68c817ccc59c059bea0122fd3b757c7bf1b1062de9c38bcc69282ecdb20641",
+      "size_bytes": 7209,
+      "last_modified": "2026-06-16T05:10:34.293393+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.136546+00:00",
           "sha256": "972174a7e8e0e1f4b2b8302033439689e4c43135a4867a24c720a23e59759286"
         },
         "termux-android": {
-          "last_synced": "2026-06-13T20:33:42.277341+00:00",
-          "sha256": "b930d5746acc1b0c092ab8522df559723dcfd1dfcb5323a7da85c7c2dd872d0d"
+          "last_synced": "2026-06-16T05:10:34.293395+00:00",
+          "sha256": "8f68c817ccc59c059bea0122fd3b757c7bf1b1062de9c38bcc69282ecdb20641"
         }
       }
     },
@@ -2846,39 +2846,39 @@
     "aar": {
       "category": "aar",
       "skill_version": "1.0.0",
-      "sha256": "04855cda135a4e0880e761bbc2ec198d2c5beee3aa4c8fc4e188db4bd03e3900",
-      "size_bytes": 4639,
-      "last_modified": "2026-06-16T05:09:16.518763+00:00",
+      "sha256": "186a02640e65af3911bc23f88717c1952552eee2c0141764b8407e4da08e33cf",
+      "size_bytes": 4615,
+      "last_modified": "2026-06-16T05:10:34.292469+00:00",
       "synced_machines": {
         "termux-android": {
-          "last_synced": "2026-06-16T05:09:16.518773+00:00",
-          "sha256": "04855cda135a4e0880e761bbc2ec198d2c5beee3aa4c8fc4e188db4bd03e3900"
+          "last_synced": "2026-06-16T05:10:34.292478+00:00",
+          "sha256": "186a02640e65af3911bc23f88717c1952552eee2c0141764b8407e4da08e33cf"
         }
       }
     },
     "audit": {
       "category": "audit",
       "skill_version": "1.0.0",
-      "sha256": "cd2048b243e6fb307dc3b31dbdd7f07f8e93caad509a6f0962b610d66717809a",
-      "size_bytes": 3734,
-      "last_modified": "2026-06-16T05:09:16.519673+00:00",
+      "sha256": "f7fb0da12ec61f1470cde426a8b745c564b498774ff2b261edd54f5cc4400355",
+      "size_bytes": 3636,
+      "last_modified": "2026-06-16T05:10:34.292576+00:00",
       "synced_machines": {
         "termux-android": {
-          "last_synced": "2026-06-16T05:09:16.519676+00:00",
-          "sha256": "cd2048b243e6fb307dc3b31dbdd7f07f8e93caad509a6f0962b610d66717809a"
+          "last_synced": "2026-06-16T05:10:34.292579+00:00",
+          "sha256": "f7fb0da12ec61f1470cde426a8b745c564b498774ff2b261edd54f5cc4400355"
         }
       }
     },
     "berean": {
       "category": "berean",
       "skill_version": "1.0.0",
-      "sha256": "bb0b957cf1e4c9c2b746582c071cadf2742f5c8970f3a27140d88fc0cd0b453c",
-      "size_bytes": 7462,
-      "last_modified": "2026-06-16T05:09:16.519793+00:00",
+      "sha256": "4bd0cdaf3143076a899a00719e913d63dc20dc6c5ec94403ebaca94c49cee08a",
+      "size_bytes": 7437,
+      "last_modified": "2026-06-16T05:10:34.292665+00:00",
       "synced_machines": {
         "termux-android": {
-          "last_synced": "2026-06-16T05:09:16.519795+00:00",
-          "sha256": "bb0b957cf1e4c9c2b746582c071cadf2742f5c8970f3a27140d88fc0cd0b453c"
+          "last_synced": "2026-06-16T05:10:34.292667+00:00",
+          "sha256": "4bd0cdaf3143076a899a00719e913d63dc20dc6c5ec94403ebaca94c49cee08a"
         }
       }
     },
@@ -2898,26 +2898,26 @@
     "vidnote": {
       "category": "vidnote",
       "skill_version": "1.0.0",
-      "sha256": "45685be8ef785725f7577f61fe633904c8e29ec1c768ad01aec86342c367a734",
-      "size_bytes": 5012,
-      "last_modified": "2026-06-16T05:09:16.520500+00:00",
+      "sha256": "87cd89dd15e38c825c7c2f103b77c32ed64b7f721ea9e3595b7b9eff5466e27b",
+      "size_bytes": 4940,
+      "last_modified": "2026-06-16T05:10:34.293231+00:00",
       "synced_machines": {
         "termux-android": {
-          "last_synced": "2026-06-16T05:09:16.520502+00:00",
-          "sha256": "45685be8ef785725f7577f61fe633904c8e29ec1c768ad01aec86342c367a734"
+          "last_synced": "2026-06-16T05:10:34.293233+00:00",
+          "sha256": "87cd89dd15e38c825c7c2f103b77c32ed64b7f721ea9e3595b7b9eff5466e27b"
         }
       }
     },
     "watch": {
       "category": "watch",
       "skill_version": "1.0.0",
-      "sha256": "51584269a564ad2fd41dfbda489b054ad27610fc85c080d8f63a3fd68388d476",
-      "size_bytes": 5923,
-      "last_modified": "2026-06-16T05:09:16.520605+00:00",
+      "sha256": "9fbd1811c8166c20ca53ee736c34a99dc4056164c2dbf6f6d3934a82496c7c8e",
+      "size_bytes": 5885,
+      "last_modified": "2026-06-16T05:10:34.293311+00:00",
       "synced_machines": {
         "termux-android": {
-          "last_synced": "2026-06-16T05:09:16.520607+00:00",
-          "sha256": "51584269a564ad2fd41dfbda489b054ad27610fc85c080d8f63a3fd68388d476"
+          "last_synced": "2026-06-16T05:10:34.293313+00:00",
+          "sha256": "9fbd1811c8166c20ca53ee736c34a99dc4056164c2dbf6f6d3934a82496c7c8e"
         }
       }
     }

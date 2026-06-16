@@ -112,8 +112,8 @@ tags: [aar, {context-tags}]
 
 ## Integration
 
-- **With `systematic-debugging`:** AAR's "why the difference" maps to Phase 1 (root cause). Use debugging workflow if the delta is technical.
-- **With `meta-cognition`:** The AAR itself requires active cognition — the radar should be on during the review. Don't passively fill out the template; interrogate each answer.
+- **With `debug`:** AAR's "why the difference" maps to Phase 1 (root cause). Use debugging workflow if the delta is technical.
+- **With `radar`:** The AAR itself requires active cognition — the radar should be on during the review. Don't passively fill out the template; interrogate each answer.
 - **With Obsidian (`obsidian` skill):** Save AARs to vault. Cross-link with project notes, exercise logs, or goal-tracking pages via `[[wikilinks]]`.
 
 ## Pitfalls

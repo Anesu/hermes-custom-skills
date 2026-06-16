@@ -1,6 +1,6 @@
 ---
 name: vidnote
-description: "One-command fused pipeline: download video → extract frames (scene detection) → transcribe → vision analysis → fused report → save to Obsidian. Chains watch-video + yt-transcribe, eliminating duplicate download/convert stages."
+description: "One-command fused pipeline: download video → extract frames (scene detection) → transcribe → vision analysis → fused report → save to Obsidian. Chains `watch` + `scribe`, eliminating duplicate download/convert stages."
 version: 1.0.0
 category: media
 metadata:
@@ -14,9 +14,9 @@ metadata:
 
 # Watch → Notes Pipeline
 
-One command to watch a video and produce structured notes. Chains `watch-video` (frames + vision) and `yt-transcribe` (audio + curation) into a single workflow, eliminating duplicate stages.
+One command to watch a video and produce structured notes. Chains `watch` (frames + vision) and `scribe` (audio + curation) into a single workflow, eliminating duplicate stages.
 
-**When to use:** Tutorials with on-screen code, lectures with slides, presentations where BOTH what was said AND what was shown matter. Not for audio-only — use `yt-transcribe` directly. Not for visual-only analysis — use `watch-video` directly.
+**When to use:** Tutorials with on-screen code, lectures with slides, presentations where BOTH what was said AND what was shown matter. Not for audio-only — use `scribe` directly. Not for visual-only analysis — use `watch` directly.
 
 ## Quick Reference (Run This)
 
@@ -29,11 +29,11 @@ ffmpeg -i "video.mp4" -ar 16000 -ac 1 -sample_fmt s16 "audio_16k.wav" -y
 METADATA=$(yt-dlp --print "%(title)s -- %(uploader)s -- %(duration)s" "$URL")
 
 # 2. DRY-RUN — preview frame count, tune threshold
-python3 ~/.hermes/skills/watch-video/scripts/extract_frames.py video.mp4 /tmp/dry/ \
+python3 ~/.hermes/skills/watch/scripts/extract_frames.py video.mp4 /tmp/dry/ \
   --dry-run --threshold 0.3
 
 # 3. EXTRACT FRAMES — scene detection
-python3 ~/.hermes/skills/watch-video/scripts/extract_frames.py video.mp4 frames/ \
+python3 ~/.hermes/skills/watch/scripts/extract_frames.py video.mp4 frames/ \
   --threshold 0.3 --output-json frames.json
 
 # 4. TRANSCRIBE — CPU (whisper.cpp) or GPU (openai-whisper)
@@ -45,8 +45,8 @@ python3 ~/.hermes/skills/watch-video/scripts/extract_frames.py video.mp4 frames/
 # 5. ANALYZE FRAMES — vision_analyze sampled frames (≤30 frames, batch 5-10)
 
 # 6. FUSE — produce TWO outputs:
-#    a) Curated transcript (yt-transcribe template — see that skill for content-type routing)
-#    b) Visual timeline report (watch-video template — timestamps + frame descriptions)
+#    a) Curated transcript (`scribe` curator template — see that skill for content-type routing)
+#    b) Visual timeline report (`watch` visual report template — timestamps + frame descriptions)
 
 # 7. SAVE — Obsidian
 # skill_view('note-taking/obsidian')
@@ -60,7 +60,7 @@ rm video.mp4 audio_16k.wav transcript.* raw_transcript.* 2>/dev/null
 
 ## Content-Type Routing
 
-Before curating, classify the video using `yt-transcribe`'s content-type detection:
+Before curating, classify the video using `scribe`'s content-type detection:
 
 | Type | Curation Focus | Visual Report Priority |
 |---|---|---|
@@ -81,7 +81,7 @@ Two linked notes per video:
 **Source:** {URL} | **Duration:** {HH:MM:SS} | **Speaker:** {Uploader}
 **Visual report:** [[{Title} — Visual Report]]
 
-{Curated transcript content — see yt-transcribe Curator Templates}
+{Curated transcript content — see `scribe` Curator Templates}
 ```
 
 ```markdown
@@ -103,10 +103,10 @@ Two linked notes per video:
 
 | Stage | Skill | Why |
 |---|---|---|
-| Frame extraction | `watch-video` (extract_frames.py) | Scene detection, real timestamps |
-| Transcription | `yt-transcribe` | Dual-path whisper, curation templates |
+| Frame extraction | `watch` (extract_frames.py) | Scene detection, real timestamps |
+| Transcription | `scribe` | Dual-path whisper, curation templates |
 | Vision analysis | `vision_analyze` tool | Frame-by-frame descriptions |
-| Curation | `yt-transcribe` (transcript) + `watch-video` (visual report) | Each owns its output format |
+| Curation | `scribe` (transcript) + `watch` (visual report) | Each owns its output format |
 | Save | `obsidian` | Vault read/write/wikilinks |
 
 ## Pitfalls
