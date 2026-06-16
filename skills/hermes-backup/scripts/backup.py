@@ -97,8 +97,8 @@ def export_sessions_meta(dst: Path):
         total = cur.fetchone()["count"]
 
         cur = conn.execute(
-            "SELECT session_id, title, created_at, updated_at "
-            "FROM sessions ORDER BY updated_at DESC LIMIT 20"
+            "SELECT id, title, started_at, ended_at, message_count "
+            "FROM sessions ORDER BY started_at DESC LIMIT 20"
         )
         recent = [dict(r) for r in cur.fetchall()]
         conn.close()

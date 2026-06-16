@@ -2787,10 +2787,10 @@
       "category": "github",
       "skill_version": "1.0.0",
       "sha256": "7204b42d0f5ee1556955ee6d7a2cb392d678d230664b4efeb5cc96c2732567cf",
-      "last_modified": "2026-06-16T08:32:03.892608+00:00",
+      "last_modified": "2026-06-16T08:33:06.186437+00:00",
       "synced_machines": {
         "termux-android": {
-          "last_synced": "2026-06-16T08:32:03.892615+00:00",
+          "last_synced": "2026-06-16T08:33:06.186464+00:00",
           "sha256": "7204b42d0f5ee1556955ee6d7a2cb392d678d230664b4efeb5cc96c2732567cf"
         }
       }
@@ -2798,12 +2798,12 @@
     "hermes-backup": {
       "category": "hermes-backup",
       "skill_version": "1.0.0",
-      "sha256": "a6ca704e431347a8e4cf3a201ba5189ef51a23e6f28d937156f8d6021b194acc",
-      "last_modified": "2026-06-16T08:32:03.893301+00:00",
+      "sha256": "9a99aeff212e0a1211b37dc1d0a40a3e4c13778cdb319f9a8b9c64e543ae7c66",
+      "last_modified": "2026-06-16T08:33:06.187552+00:00",
       "synced_machines": {
         "termux-android": {
-          "last_synced": "2026-06-16T08:32:03.893309+00:00",
-          "sha256": "a6ca704e431347a8e4cf3a201ba5189ef51a23e6f28d937156f8d6021b194acc"
+          "last_synced": "2026-06-16T08:33:06.187561+00:00",
+          "sha256": "9a99aeff212e0a1211b37dc1d0a40a3e4c13778cdb319f9a8b9c64e543ae7c66"
         }
       }
     },
