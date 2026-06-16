@@ -1158,96 +1158,96 @@
     "codebase-inspection": {
       "category": "github/codebase-inspection",
       "skill_version": "1.0.0",
-      "sha256": "87ddc0578d9bcbc80addb34ca045e4263689873ce02b1b73e3d57275ec6315c6",
-      "last_modified": "2026-06-13T20:34:08.638665+00:00",
+      "sha256": "834af16a8487428dc6ac91529630744a5ef6d5d54133345007a9171a5546ecb2",
+      "last_modified": "2026-06-16T08:34:35.869504+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
           "sha256": "6757a9541e03f4c3fb191f7c680fb3f7d603687422bd77602203003acba4546f"
         },
         "termux-android": {
-          "last_synced": "2026-06-13T20:33:42.277341+00:00",
-          "sha256": "87ddc0578d9bcbc80addb34ca045e4263689873ce02b1b73e3d57275ec6315c6"
+          "last_synced": "2026-06-16T08:34:35.869514+00:00",
+          "sha256": "834af16a8487428dc6ac91529630744a5ef6d5d54133345007a9171a5546ecb2"
         }
       }
     },
     "github-auth": {
       "category": "github/github-auth",
       "skill_version": "1.1.0",
-      "sha256": "6b49a0655a5810928219a2b8415ee8badcfa4af4e6e2763aa235ce47c5f72a13",
-      "last_modified": "2026-06-11T07:43:29.979482+00:00",
+      "sha256": "f0e601e5c21cb9a9f9b66fb2c1a64f4f94bb097ea29dbc027fe5a8e9935c8d85",
+      "last_modified": "2026-06-16T08:34:35.869608+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
           "sha256": "6b49a0655a5810928219a2b8415ee8badcfa4af4e6e2763aa235ce47c5f72a13"
         },
         "termux-android": {
-          "last_synced": "2026-06-13T20:33:42.277341+00:00",
-          "sha256": "6b49a0655a5810928219a2b8415ee8badcfa4af4e6e2763aa235ce47c5f72a13"
+          "last_synced": "2026-06-16T08:34:35.869610+00:00",
+          "sha256": "f0e601e5c21cb9a9f9b66fb2c1a64f4f94bb097ea29dbc027fe5a8e9935c8d85"
         }
       }
     },
     "github-code-review": {
       "category": "github/github-code-review",
       "skill_version": "1.1.0",
-      "sha256": "2d1956e52d88bd88c166dfa54f5e0e353fc4478c6cb6cf08431261a2337efc4d",
-      "last_modified": "2026-06-11T07:43:29.979482+00:00",
+      "sha256": "bdf4a1ec8f39932abd970aa6b598b180e52cde71a903ed5b336416eeaec75a1a",
+      "last_modified": "2026-06-16T08:34:35.869685+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
           "sha256": "2d1956e52d88bd88c166dfa54f5e0e353fc4478c6cb6cf08431261a2337efc4d"
         },
         "termux-android": {
-          "last_synced": "2026-06-13T20:33:42.277341+00:00",
-          "sha256": "2d1956e52d88bd88c166dfa54f5e0e353fc4478c6cb6cf08431261a2337efc4d"
+          "last_synced": "2026-06-16T08:34:35.869687+00:00",
+          "sha256": "bdf4a1ec8f39932abd970aa6b598b180e52cde71a903ed5b336416eeaec75a1a"
         }
       }
     },
     "github-issues": {
       "category": "github/github-issues",
       "skill_version": "1.1.0",
-      "sha256": "c1be1ca373adebd879408280e8987069e3d07fd0b93f41b4600c5b6df95b85dd",
-      "last_modified": "2026-06-11T07:43:29.979482+00:00",
+      "sha256": "c3a697ee1f38e60c9f6b6f68b46d7693212a4436401a3705416892047e105e5c",
+      "last_modified": "2026-06-16T08:34:35.869757+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
           "sha256": "c1be1ca373adebd879408280e8987069e3d07fd0b93f41b4600c5b6df95b85dd"
         },
         "termux-android": {
-          "last_synced": "2026-06-13T20:33:42.277341+00:00",
-          "sha256": "c1be1ca373adebd879408280e8987069e3d07fd0b93f41b4600c5b6df95b85dd"
+          "last_synced": "2026-06-16T08:34:35.869758+00:00",
+          "sha256": "c3a697ee1f38e60c9f6b6f68b46d7693212a4436401a3705416892047e105e5c"
         }
       }
     },
     "github-pr-workflow": {
       "category": "github/github-pr-workflow",
       "skill_version": "1.1.0",
-      "sha256": "2461c0a678c2cc66d8ac27170e0c6334cf431f9ade43e775cc5f9c56c0c4f3c6",
-      "last_modified": "2026-06-11T07:43:29.979482+00:00",
+      "sha256": "04d7a19f0c3e0d687084619be1f20782f2aa7857ee7c5e7ba8e0d753cd462bee",
+      "last_modified": "2026-06-16T08:34:35.869828+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
           "sha256": "2461c0a678c2cc66d8ac27170e0c6334cf431f9ade43e775cc5f9c56c0c4f3c6"
         },
         "termux-android": {
-          "last_synced": "2026-06-13T20:33:42.277341+00:00",
-          "sha256": "2461c0a678c2cc66d8ac27170e0c6334cf431f9ade43e775cc5f9c56c0c4f3c6"
+          "last_synced": "2026-06-16T08:34:35.869830+00:00",
+          "sha256": "04d7a19f0c3e0d687084619be1f20782f2aa7857ee7c5e7ba8e0d753cd462bee"
         }
       }
     },
     "github-repo-management": {
       "category": "github/github-repo-management",
       "skill_version": "1.1.0",
-      "sha256": "f8386be60ad8d2bf56104b75427aec93b26418191c76a3f1fbf5b4b002dbbb5d",
-      "last_modified": "2026-06-13T20:34:08.638665+00:00",
+      "sha256": "0d1012455d33ca906cce9ea4b8e10bfc9c9a7254bcc7035c64f9f39164c3715c",
+      "last_modified": "2026-06-16T08:34:35.869897+00:00",
       "synced_machines": {
         "windows-desktop": {
           "last_synced": "2026-06-13T14:20:49.134546+00:00",
           "sha256": "d27fec8f6c4bfde98b95c58f22bb968423eb71c3022a73d49bb25907a0ddd8c5"
         },
         "termux-android": {
-          "last_synced": "2026-06-13T20:33:42.277341+00:00",
-          "sha256": "f8386be60ad8d2bf56104b75427aec93b26418191c76a3f1fbf5b4b002dbbb5d"
+          "last_synced": "2026-06-16T08:34:35.869898+00:00",
+          "sha256": "0d1012455d33ca906cce9ea4b8e10bfc9c9a7254bcc7035c64f9f39164c3715c"
         }
       }
     },
@@ -2798,12 +2798,12 @@
     "hermes-backup": {
       "category": "hermes-backup",
       "skill_version": "1.0.0",
-      "sha256": "9a99aeff212e0a1211b37dc1d0a40a3e4c13778cdb319f9a8b9c64e543ae7c66",
-      "last_modified": "2026-06-16T08:33:06.187552+00:00",
+      "sha256": "e5940f5505d15ec9e1c3367c127c8061939b35f83cc76121ddcdd66ad2827a76",
+      "last_modified": "2026-06-16T08:34:35.870174+00:00",
       "synced_machines": {
         "termux-android": {
-          "last_synced": "2026-06-16T08:33:06.187561+00:00",
-          "sha256": "9a99aeff212e0a1211b37dc1d0a40a3e4c13778cdb319f9a8b9c64e543ae7c66"
+          "last_synced": "2026-06-16T08:34:35.870176+00:00",
+          "sha256": "e5940f5505d15ec9e1c3367c127c8061939b35f83cc76121ddcdd66ad2827a76"
         }
       }
     },

@@ -61,20 +61,13 @@ def sha256_file(path: Path) -> str:
     return h.hexdigest()
 
 
-def backup_sqlite(src: Path, dst: Path) -> bool:
-    """Safe SQLite backup using the backup API (safe during writes)."""
-    try:
-        src_conn = sqlite3.connect(str(src))
-        dst_conn = sqlite3.connect(str(dst))
-        src_conn.backup(dst_conn)
-        dst_conn.close()
-        src_conn.close()
-        return True
-    except Exception as e:
-        print(f"  [WARN] SQLite backup failed: {e}")
-        # Fallback: file copy
+def backup_sqlite(src: Path, dst: Path) -> str:
+    """Safe SQLite backup. Uses file copy on Android/Termux (backup API unstable)."""
+    # Android/Termux: sqlite3 backup API can SIGABRT on cleanup.
+    # Use file copy and let SQLite's WAL handle concurrent writes safely.
+    if "ANDROID" in os.environ.get("PREFIX", "") or "com.termux" in str(Path.home()):
         shutil.copy2(src, dst)
-        return False
+        return "file copy (Android-safe)"
 
 
 def export_cron(definitions: list, dst: Path):
@@ -260,8 +253,7 @@ def main():
 
         if name == "state_db":
             dst.parent.mkdir(parents=True, exist_ok=True)
-            success = backup_sqlite(src, dst)
-            method = "SQLite backup API" if success else "file copy (fallback)"
+            method = backup_sqlite(src, dst)
         else:
             dst.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(src, dst)
