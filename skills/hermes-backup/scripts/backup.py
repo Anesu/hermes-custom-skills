@@ -62,12 +62,25 @@ def sha256_file(path: Path) -> str:
 
 
 def backup_sqlite(src: Path, dst: Path) -> str:
-    """Safe SQLite backup. Uses file copy on Android/Termux (backup API unstable)."""
+    """Safe SQLite backup. Uses SQLite backup API on standard Linux/macOS;
+    falls back to file copy on Android/Termux where the backup API is unstable."""
     # Android/Termux: sqlite3 backup API can SIGABRT on cleanup.
-    # Use file copy and let SQLite's WAL handle concurrent writes safely.
     if "ANDROID" in os.environ.get("PREFIX", "") or "com.termux" in str(Path.home()):
         shutil.copy2(src, dst)
         return "file copy (Android-safe)"
+
+    # Standard Linux/macOS: use SQLite online backup API (safe during writes)
+    try:
+        src_conn = sqlite3.connect(str(src))
+        dst_conn = sqlite3.connect(str(dst))
+        src_conn.backup(dst_conn)
+        dst_conn.close()
+        src_conn.close()
+        return "sqlite3 backup API"
+    except Exception as e:
+        print(f"  [WARN] SQLite backup API failed ({e}), falling back to file copy")
+        shutil.copy2(src, dst)
+        return "file copy (fallback)"
 
 
 def export_cron(definitions: list, dst: Path):
@@ -103,24 +116,55 @@ def export_sessions_meta(dst: Path):
 
 
 def collect_cron_defs() -> list:
-    """Collect cron job definitions via Hermes CLI if available."""
+    """Collect cron job definitions via Hermes CLI if available.
+    Falls back to parsing human-readable output since --json flag doesn't exist."""
     try:
         result = subprocess.run(
-            ["hermes", "cron", "list", "--json"],
+            ["hermes", "cron", "list"],
             capture_output=True, text=True, timeout=15
         )
-        if result.returncode == 0 and result.stdout.strip():
-            return json.loads(result.stdout)
+        if result.returncode != 0:
+            return []
+        output = result.stdout.strip()
+        if not output or "No scheduled jobs" in output:
+            return []
+        # Parse human-readable output into structured list
+        # Output format: each job on a line like "<id>  <schedule>  <status>  <name>"
+        jobs = []
+        for line in output.split("\n"):
+            line = line.strip()
+            if line and not line.startswith("No "):
+                parts = line.split(None, 3)
+                if len(parts) >= 2:
+                    jobs.append({
+                        "id": parts[0],
+                        "schedule": parts[1],
+                        "status": parts[2] if len(parts) > 2 else "?",
+                        "name": parts[3] if len(parts) > 3 else "",
+                    })
+        return jobs
     except Exception:
-        pass
-    return []
+        return []
 
 
 def trigger_skill_sync() -> dict:
-    """Trigger skill-sync push. Returns status."""
-    sync_script = HERMES_HOME / "skills" / "skill-sync" / "scripts" / "sync.py"
-    if not sync_script.exists():
-        return {"status": "skipped", "reason": "skill-sync script not found"}
+    """Trigger skill-sync push. Returns status.
+    Tries script first; falls back to agent-driven sync (Path B in skill-sync docs).
+    The script may not exist on all machines — agent-driven is always available."""
+    # Try both possible script locations (categorized vs root-level)
+    candidates = [
+        HERMES_HOME / "skills" / "productivity" / "skill-sync" / "scripts" / "sync.py",
+        HERMES_HOME / "skills" / "skill-sync" / "scripts" / "sync.py",
+    ]
+    sync_script = None
+    for c in candidates:
+        if c.exists():
+            sync_script = c
+            break
+
+    if not sync_script:
+        return {"status": "skipped",
+                "reason": "skill-sync script not found (use agent-driven sync via skill-sync skill)"}
     try:
         result = subprocess.run(
             ["python3", str(sync_script), "push"],
@@ -136,13 +180,19 @@ def trigger_skill_sync() -> dict:
 
 def trigger_identity_sync() -> dict:
     """Trigger identity-sync push. Returns status. (Requires private repo access)"""
-    # identity-sync script location
-    identity_script = HERMES_HOME / "skills" / "identity-sync" / "scripts" / "identity_sync.py"
-    if not identity_script.exists():
-        # Try alternative location
-        identity_script = HERMES_HOME / "skills" / "productivity" / "identity-sync" / "scripts" / "identity_sync.py"
-    if not identity_script.exists():
-        return {"status": "skipped", "reason": "identity-sync script not found"}
+    candidates = [
+        HERMES_HOME / "skills" / "productivity" / "identity-sync" / "scripts" / "identity_sync.py",
+        HERMES_HOME / "skills" / "identity-sync" / "scripts" / "identity_sync.py",
+    ]
+    identity_script = None
+    for c in candidates:
+        if c.exists():
+            identity_script = c
+            break
+
+    if not identity_script:
+        return {"status": "skipped",
+                "reason": "identity-sync script not found (use agent-driven sync via identity-sync skill)"}
     try:
         result = subprocess.run(
             ["python3", str(identity_script), "push"],
@@ -219,9 +269,66 @@ def build_manifest(assets: dict, syncs: dict) -> dict:
     }
 
 
+def check_gh_auth() -> bool:
+    """Check if gh CLI is authenticated for Git operations."""
+    try:
+        result = subprocess.run(
+            ["gh", "auth", "status"], capture_output=True, text=True, timeout=5
+        )
+        return result.returncode == 0
+    except Exception:
+        return False
+
+
+def preflight_check() -> dict:
+    """Run pre-flight checks. Returns {status: 'ok'|'warn'|'block', issues: [...]}."""
+    issues = []
+
+    # Report detected device name
+    issues.append({
+        "level": "info",
+        "msg": f"Device name: '{DEVICE}' (set via HERMES_SYNC_MACHINE={DEVICE})",
+    })
+
+    # Check state.db
+    state_db = HERMES_HOME / "state.db"
+    if not state_db.exists():
+        issues.append({"level": "block", "msg": "state.db not found — nothing to back up"})
+
+    # Check gh auth
+    if not check_gh_auth():
+        issues.append({
+            "level": "warn",
+            "msg": "gh CLI not authenticated. Push to GitHub will fail.",
+            "fix": "gh auth login --scopes repo",
+        })
+
+    # Check backup repo
+    if not BACKUP_REPO.exists():
+        issues.append({
+            "level": "block",
+            "msg": f"Backup repo not found at {BACKUP_REPO}",
+            "fix": "gh repo clone Anesu/hermes-backups ~/hermes-backups",
+        })
+
+    return {
+        "status": "block" if any(i["level"] == "block" for i in issues) else
+                  "warn" if issues else "ok",
+        "issues": issues,
+    }
+
+
 # ── Main ───────────────────────────────────────────────────────────────────
 
 def main():
+    global DEVICE
+
+    # ── Auto-detect DEVICE name from hostname if not set ──
+    if DEVICE == "unknown-device":
+        import platform
+        DEVICE = platform.node().split(".")[0] or "fedora-linux"
+        os.environ["HERMES_SYNC_MACHINE"] = DEVICE
+
     print("═" * 50)
     print("HERMES FULL-STATE BACKUP")
     print(f"  Device:  {DEVICE}")
@@ -229,10 +336,22 @@ def main():
     print(f"  Repo:    {BACKUP_REPO}")
     print("═" * 50)
 
-    if DEVICE == "unknown-device":
-        print("\n[ERROR] HERMES_SYNC_MACHINE is not set.")
-        print("  export HERMES_SYNC_MACHINE=\"termux-android\"  # or your device name")
+    # ── Pre-flight checks ──
+    print("\n[0/5] Pre-flight checks...")
+    checks = preflight_check()
+
+    for issue in checks["issues"]:
+        prefix = {"block": "[FATAL]", "warn": "[WARN]", "info": "[INFO]"}.get(issue["level"], "[?]")
+        print(f"  {prefix} {issue['msg']}")
+        if "fix" in issue:
+            print(f"         Fix: {issue['fix']}")
+
+    if checks["status"] == "block":
+        print("\n[CANNOT PROCEED] Fix the blocking issues above, then re-run.")
         sys.exit(1)
+
+    if checks["status"] == "warn":
+        print("  (Non-blocking warnings — backup will proceed, but push may fail)\n")
 
     # ── Phase 1: Create backup directory ──
     ts = datetime.now().strftime("%Y%m%d-%H%M%S")
@@ -335,37 +454,59 @@ def main():
 
     # ── Phase 5: Push to GitHub ──
     print("\n[5/5] Pushing to private repo...")
-    os.chdir(BACKUP_REPO)
 
-    # Verify repo is PRIVATE before pushing
-    try:
-        result = subprocess.run(
-            ["gh", "repo", "view", "Anesu/hermes-backups", "--json", "isPrivate"],
-            capture_output=True, text=True, timeout=10
-        )
-        repo_info = json.loads(result.stdout)
-        if not repo_info.get("isPrivate"):
-            print("  [FATAL] Repo is NOT private! Aborting push.")
-            print("  Run: gh repo edit Anesu/hermes-backups --visibility private")
-            sys.exit(1)
-    except Exception as e:
-        print(f"  [WARN] Could not verify repo privacy: {e}")
+    # Check if we can push (repo exists, is git repo, has remote, gh authed)
+    can_push = True
+    if not BACKUP_REPO.exists():
+        print("  [SKIP] Backup repo not cloned — backup saved locally only")
+        print(f"         Clone it: gh repo clone Anesu/hermes-backups {BACKUP_REPO}")
+        can_push = False
+    elif not (BACKUP_REPO / ".git").exists():
+        print("  [SKIP] Not a git repo — backup saved locally only")
+        print(f"         Initialize: cd {BACKUP_REPO} && git init && git remote add origin git@github.com:Anesu/hermes-backups.git")
+        can_push = False
+    elif not check_gh_auth():
+        print("  [WARN] gh CLI not authenticated. Backup saved locally, push skipped.")
+        print("         To push later: gh auth login --scopes repo")
+        can_push = False
 
-    subprocess.run(["git", "add", "-A"], check=True)
-    commit_msg = f"backup: {DEVICE} — {manifest['backup_id']}"
-    result = subprocess.run(["git", "commit", "-m", commit_msg], capture_output=True)
-    if result.returncode != 0 and "nothing to commit" not in result.stderr:
-        print(f"  [WARN] Commit issue: {result.stderr}")
+    if can_push:
+        os.chdir(BACKUP_REPO)
 
-    result = subprocess.run(["git", "push"], capture_output=True, text=True, timeout=60)
-    if result.returncode == 0:
-        print("  [OK] Pushed to Anesu/hermes-backups (PRIVATE)")
+        # Verify repo is PRIVATE before pushing
+        try:
+            result = subprocess.run(
+                ["gh", "repo", "view", "Anesu/hermes-backups", "--json", "isPrivate"],
+                capture_output=True, text=True, timeout=10
+            )
+            if result.returncode == 0 and result.stdout.strip():
+                repo_info = json.loads(result.stdout)
+                if not repo_info.get("isPrivate"):
+                    print("  [FATAL] Repo is NOT private! Aborting push.")
+                    print("  Run: gh repo edit Anesu/hermes-backups --visibility private")
+                    can_push = False
+        except Exception as e:
+            print(f"  [WARN] Could not verify repo privacy: {e}")
+
+    if can_push:
+        subprocess.run(["git", "add", "-A"], check=True)
+        commit_msg = f"backup: {DEVICE} — {manifest['backup_id']}"
+        result = subprocess.run(["git", "commit", "-m", commit_msg], capture_output=True)
+        if result.returncode != 0 and "nothing to commit" not in (result.stderr or ""):
+            print(f"  [WARN] Commit issue: {result.stderr}")
+
+        result = subprocess.run(["git", "push"], capture_output=True, text=True, timeout=60)
+        if result.returncode == 0:
+            print("  [OK] Pushed to Anesu/hermes-backups (PRIVATE)")
+        else:
+            print(f"  [WARN] Push failed (backup saved locally): {result.stderr[:200]}")
     else:
-        print(f"  [ERROR] Push failed: {result.stderr[:300]}")
+        print("  [INFO] Backup saved locally. Push skipped.")
 
-    # ── Retention ──
-    apply_retention(BACKUP_REPO, DEVICE)
-    apply_global_retention(BACKUP_REPO)
+    # ── Retention (local only if can't push) ──
+    if BACKUP_REPO.exists():
+        apply_retention(BACKUP_REPO, DEVICE)
+        apply_global_retention(BACKUP_REPO)
 
     # ── Summary ──
     total_size = sum(a["size"] for a in assets.values())

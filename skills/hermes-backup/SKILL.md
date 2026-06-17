@@ -1,7 +1,7 @@
 ---
 name: hermes-backup
 description: "Full-state Hermes disaster recovery backup. Captures state.db, config, cron, history, sessions metadata. Wraps skill-sync + identity-sync. Pushes to PRIVATE GitHub repo."
-version: 1.0.0
+version: 1.1.0
 category: productivity
 metadata:
   hermes:
@@ -19,7 +19,7 @@ Disaster recovery for your Digital Armor-Bearer. Captures the complete modifiabl
 | Layer | Asset | Mechanism |
 |-------|-------|-----------|
 | **Identity** | SOUL.md, USER.md, MEMORY.md, config.yaml | Triggers `identity-sync push` |
-| **Skills** | All 169+ skill directories | Triggers `skill-sync push` |
+| **Skills** | All installed skill directories | Triggers `skill-sync push` |
 | **Brain** | `state.db` (SQLite session store) | SQLite backup API (safe during writes) |
 | **Config** | `config.yaml` | Direct capture |
 | **Automation** | Cron job definitions | Exported via `hermes cron list` |
@@ -49,12 +49,19 @@ Backups older than the retention window are deleted from the repo. Git history p
 ## Quick Start
 
 ```bash
-# One-time setup
-export HERMES_SYNC_MACHINE="termux-android"    # or "windows-desktop", "macbook", etc.
-echo 'export HERMES_SYNC_MACHINE="termux-android"' >> ~/.bashrc
+# One-time setup — pick your device name
+export HERMES_SYNC_MACHINE="bazzite"          # Fedora desktop (auto-detected from hostname if unset)
+# export HERMES_SYNC_MACHINE="termux-android"  # Android phone
+# export HERMES_SYNC_MACHINE="windows-desktop" # Windows machine
+echo 'export HERMES_SYNC_MACHINE="bazzite"' >> ~/.bashrc
 
-# Run backup
+# Clone the backup repo (one-time)
+gh repo clone Anesu/hermes-backups ~/hermes-backups
+
+# Run backup (script auto-detects device name from hostname if HERMES_SYNC_MACHINE unset)
 python3 ~/.hermes/skills/hermes-backup/scripts/backup.py
+
+# If gh is not authenticated, backup still saves locally — push when ready
 ```
 
 ## Restore from Backup
@@ -66,8 +73,10 @@ gh repo clone Anesu/hermes-backups ~/hermes-backups-restore
 # 2. Restore state.db snapshot
 cp ~/hermes-backups-restore/backups/<device>/<timestamp>/state.db ~/.hermes/state.db
 
-# 3. Restore config
+# 3. Restore config (REVIEW before using — paths may differ between machines)
 cp ~/hermes-backups-restore/backups/<device>/<timestamp>/config.yaml ~/.hermes/config.yaml
+# IMPORTANT: Review ~/.hermes/config.yaml — home directory paths, terminal.backend,
+# and provider configs may need adjustment for this machine.
 
 # 4. Restore skills (via skill-sync)
 # Load the skill-sync skill and run: skill-sync pull
@@ -144,12 +153,16 @@ Anesu/hermes-backups/         (PRIVATE)
 
 | Problem | Fix |
 |---------|-----|
-| `HERMES_SYNC_MACHINE` not set | Script exits. `export HERMES_SYNC_MACHINE="termux-android"` |
-| Repo not cloned | Script uses `~/hermes-backups/` directly. Clone manually: `gh repo clone Anesu/hermes-backups ~/hermes-backups` |
-| `state.db` locked during backup | SQLite backup API handles concurrent writes safely. Fallback to file copy. |
-| identity-sync script not found | Check `~/.hermes/skills/identity-sync/scripts/identity_sync.py` exists |
-| Git push fails (auth) | `gh auth status` — ensure `repo` scope |
+| `HERMES_SYNC_MACHINE` not set | Script auto-detects from hostname. Set permanently: `export HERMES_SYNC_MACHINE="my-device" >> ~/.bashrc` |
+| Repo not cloned (`~/hermes-backups/` missing) | `gh repo clone Anesu/hermes-backups ~/hermes-backups`. Backup saves locally without repo. |
+| `gh` CLI not authenticated | `gh auth login --scopes repo`. Backup still saves locally; push skips. |
+| `state.db` locked during backup | SQLite backup API handles concurrent writes safely on Linux/macOS. Falls back to file copy on Android or if API fails. |
+| identity-sync / skill-sync scripts not found | Scripts may not exist on all machines. Backup skips syncs gracefully. Use agent-driven sync: load the `skill-sync` or `identity-sync` skill and ask Hermes to sync. |
+| Git push fails (auth) | `gh auth status` — ensure `repo` scope. Token may need refresh. |
 | Repo accidentally made public | Script verifies privacy before push. If public, abort and warn. |
+| Restored `config.yaml` has wrong paths | Home directory, terminal.backend, and provider configs are machine-specific. Review after restore. |
+| `hermes cron list` output format changes | Script parses human-readable output; if a future Hermes version changes the format, cron capture will return empty. |
+| `python3` not found (Windows) | Use `python` instead, or update the `PATH`. Script is tested on Linux/macOS; Windows may need adjustments. |
 
 ## Design Principle
 
